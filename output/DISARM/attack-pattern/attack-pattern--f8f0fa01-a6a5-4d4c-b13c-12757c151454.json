@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ce96b6a-97e8-44ca-83d1-29ccf5c5187e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f8f0fa01-a6a5-4d4c-b13c-12757c151454",
+            "created_by_ref": "identity--d5ee47be-873f-4b2e-9330-21866a52b640",
+            "created": "2022-01-30T02:04:04.827175Z",
+            "modified": "2022-01-30T02:04:04.827175Z",
+            "name": "Tertiary sites amplify news",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0052.md",
+                    "external_id": "T0052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b14fb132-e956-4146-aa9b-07427ee08b9d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

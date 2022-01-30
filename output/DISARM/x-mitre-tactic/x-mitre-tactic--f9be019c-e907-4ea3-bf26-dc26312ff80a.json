@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--7bb73167-52f8-4b99-b2bd-de8117ac410a",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--f9be019c-e907-4ea3-bf26-dc26312ff80a",
+            "created_by_ref": "identity--9a9d7740-6a7f-4e74-8374-5018af5f6d5c",
+            "created": "2022-01-30T02:02:06.882208Z",
+            "modified": "2022-01-30T02:02:06.882208Z",
+            "name": "Develop Content",
+            "description": "Create and acquire content used in incident",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA06.md",
+                    "external_id": "TA06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b1d9f7ef-9375-4f1a-8759-7de2241afe92"
+            ],
+            "x_mitre_shortname": "develop-content"
+        }
+    ]
+}

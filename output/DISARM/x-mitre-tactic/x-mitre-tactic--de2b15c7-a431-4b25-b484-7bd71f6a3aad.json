@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--63ce8e83-bca1-4a78-97ef-48ad3201a426",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--de2b15c7-a431-4b25-b484-7bd71f6a3aad",
+            "created_by_ref": "identity--0302db6d-e5f3-4bd2-ae33-b2e4a59eaaba",
+            "created": "2022-01-30T02:02:06.882512Z",
+            "modified": "2022-01-30T02:02:06.882512Z",
+            "name": "Channel Selection",
+            "description": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms. Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA07.md",
+                    "external_id": "TA07"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--491efe78-a94f-48f8-989e-67a6855103de"
+            ],
+            "x_mitre_shortname": "channel-selection"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--20bbaa7f-53d8-4a84-af29-2ec9897c5198",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f31b2f97-7239-4ad8-97f9-bb8ae92bd7f0",
+            "created_by_ref": "identity--102f85a1-80cf-482f-9357-f417d50cbd5d",
+            "created": "2022-01-30T02:02:06.904231Z",
+            "modified": "2022-01-30T02:02:06.904231Z",
+            "name": "Sell merchandising",
+            "description": "TA10",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "go-physical"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0061.md",
+                    "external_id": "T0061"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3dbab816-47ca-4b0d-8c59-3ee51cd2c32f"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

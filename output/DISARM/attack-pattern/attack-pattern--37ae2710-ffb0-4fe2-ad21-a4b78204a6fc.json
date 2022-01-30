@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ef2d583-3282-4eba-af16-c09ac353b7ee",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--37ae2710-ffb0-4fe2-ad21-a4b78204a6fc",
+            "created_by_ref": "identity--70650395-6f3c-4b42-9a0a-722158d47225",
+            "created": "2022-01-30T02:04:04.821598Z",
+            "modified": "2022-01-30T02:04:04.821598Z",
+            "name": "Pinterest",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0035.md",
+                    "external_id": "T0035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--50b9c31b-c001-4118-9beb-37afd876725c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

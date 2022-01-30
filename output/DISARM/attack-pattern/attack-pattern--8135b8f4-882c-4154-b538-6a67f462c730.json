@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e592d08-ead2-4d6d-8555-85108fd43928",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8135b8f4-882c-4154-b538-6a67f462c730",
+            "created_by_ref": "identity--0813c52f-3f1f-43dc-b013-b3e65175450c",
+            "created": "2022-01-30T02:04:04.826847Z",
+            "modified": "2022-01-30T02:04:04.826847Z",
+            "name": "Fabricate social media comment",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0051.md",
+                    "external_id": "T0051"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--874e2cc2-23d8-45c8-bc0f-ddc746314a5b"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb59aa82-7404-4baf-947c-fdd3c02402c2",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--1b6a4e79-3585-43b5-be53-9218f228e08c",
+            "created_by_ref": "identity--75fa274f-ab62-4178-ad97-22df754df438",
+            "created": "2022-01-30T02:04:04.806993Z",
+            "modified": "2022-01-30T02:04:04.806993Z",
+            "name": "Develop People",
+            "description": "Develop online and offline users and agents, including automated personas",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA03.md",
+                    "external_id": "TA03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b14f3f2a-5ccf-4f9e-a0d9-9d91202fe9b8"
+            ],
+            "x_mitre_shortname": "develop-people"
+        }
+    ]
+}

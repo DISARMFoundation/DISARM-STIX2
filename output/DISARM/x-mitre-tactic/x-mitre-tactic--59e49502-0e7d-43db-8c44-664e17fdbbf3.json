@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--99139eb2-65b0-489b-b4c5-0f508f956043",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--59e49502-0e7d-43db-8c44-664e17fdbbf3",
+            "created_by_ref": "identity--afe7cebe-f194-4744-a6d9-04adf505565c",
+            "created": "2022-01-30T02:02:06.880574Z",
+            "modified": "2022-01-30T02:02:06.880574Z",
+            "name": "Strategic Planning",
+            "description": "Define the desired end state, i.e. the set of required conditions that defines achievement of all objectives.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA01.md",
+                    "external_id": "TA01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--7c8c806c-6f99-4254-bbcd-f79315e2af70"
+            ],
+            "x_mitre_shortname": "strategic-planning"
+        }
+    ]
+}

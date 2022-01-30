@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c1a55444-2bc9-4627-b3b3-9e54611a3ab1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eb325d32-5cd4-49c4-8e79-70f46ddb0007",
+            "created_by_ref": "identity--6225f799-4447-400e-b90d-9e84b0b48339",
+            "created": "2022-01-30T02:04:04.829126Z",
+            "modified": "2022-01-30T02:04:04.829126Z",
+            "name": "Legacy web content",
+            "description": "TA11",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0058.md",
+                    "external_id": "T0058"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1ce5cd28-f9a9-4850-8f42-4864ea544dd4"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

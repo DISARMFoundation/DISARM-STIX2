@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6894540e-c2ce-4eb8-bf91-eaa7afe321e3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--98584e38-5b9d-49df-a13e-24c9c45f8938",
+            "created_by_ref": "identity--1e8bb8d5-3f49-49db-bfec-4d6b0ba3a9e2",
+            "created": "2022-01-30T02:02:06.885971Z",
+            "modified": "2022-01-30T02:02:06.885971Z",
+            "name": "Center of Gravity Analysis",
+            "description": "TA02",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "objective-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0005.md",
+                    "external_id": "T0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5a8d335a-7a22-411b-a1eb-114666042abf"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

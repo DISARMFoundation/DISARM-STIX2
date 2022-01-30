@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d56f47fc-19c5-424f-9d58-889d14f2fd7d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3928b010-e32f-47ba-8eb9-c031bb710888",
+            "created_by_ref": "identity--42bd04fe-cc6b-486f-9264-186546b59259",
+            "created": "2022-01-30T02:02:06.887957Z",
+            "modified": "2022-01-30T02:02:06.887957Z",
+            "name": "Hijack legitimate account",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0011.md",
+                    "external_id": "T0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--66488eb8-c4f8-4740-8aaa-6e7de10db934"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

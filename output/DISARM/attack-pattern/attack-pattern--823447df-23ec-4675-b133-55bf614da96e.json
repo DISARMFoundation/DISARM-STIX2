@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--88a44474-5b20-4599-b6a2-b62e35f7991f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--823447df-23ec-4675-b133-55bf614da96e",
+            "created_by_ref": "identity--9b2b95bd-4dc8-4265-a0d8-2684534207b8",
+            "created": "2022-01-30T02:02:06.90037Z",
+            "modified": "2022-01-30T02:02:06.90037Z",
+            "name": "Flooding",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0049.md",
+                    "external_id": "T0049"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2695267f-25d9-4d01-a797-7804bd0be5b4"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

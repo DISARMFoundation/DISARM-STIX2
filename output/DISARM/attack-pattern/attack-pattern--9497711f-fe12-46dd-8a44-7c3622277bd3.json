@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ffc780e-496c-4ebe-a774-c55bbcc5a18d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9497711f-fe12-46dd-8a44-7c3622277bd3",
+            "created_by_ref": "identity--a6b9098b-1725-455b-b2e6-ee777fbd07ee",
+            "created": "2022-01-30T02:02:06.902936Z",
+            "modified": "2022-01-30T02:02:06.902936Z",
+            "name": "Organise remote rallies and events",
+            "description": "TA10",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "go-physical"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0057.md",
+                    "external_id": "T0057"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d3dd70f1-98ff-467b-a606-bdd737963df1"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--337bc011-306c-465a-bc95-eb96a0331315",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cd82e261-e2f5-4a94-8e40-144b19c1ffd8",
+            "created_by_ref": "identity--47d85389-6ba0-45d0-be8e-f9e125e6d2bc",
+            "created": "2022-01-30T02:02:06.904878Z",
+            "modified": "2022-01-30T02:02:06.904878Z",
+            "name": "Message reach",
+            "description": "TA12",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "measure-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0063.md",
+                    "external_id": "T0063"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f09ee057-a991-44db-bf1c-acb48d47623c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

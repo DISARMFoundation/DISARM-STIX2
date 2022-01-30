@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--771b0f94-8568-4abc-99f3-b3ae6f6ee91d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--87ed0996-d88e-45bb-a723-37f01f7bc950",
+            "created_by_ref": "identity--c4637866-c2d5-4dbc-b918-25167830db1a",
+            "created": "2022-01-30T02:04:04.815027Z",
+            "modified": "2022-01-30T02:04:04.815027Z",
+            "name": "Create hashtag",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0015.md",
+                    "external_id": "T0015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--cef515d9-36c8-49df-a80a-6d565932de37"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

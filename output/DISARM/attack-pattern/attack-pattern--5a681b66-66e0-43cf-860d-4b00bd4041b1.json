@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f79d5e58-a839-43f6-8356-2365cc51ca14",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5a681b66-66e0-43cf-860d-4b00bd4041b1",
+            "created_by_ref": "identity--11e435f6-8441-456e-ba38-f0aa1845b4fd",
+            "created": "2022-01-30T02:04:04.812682Z",
+            "modified": "2022-01-30T02:04:04.812682Z",
+            "name": "Create fake or imposter news sites",
+            "description": "TA03",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0008.md",
+                    "external_id": "T0008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--488ee847-be6e-47b2-8e1b-1c663f7c6479"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

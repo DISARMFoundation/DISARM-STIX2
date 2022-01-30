@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1759b5e5-c37f-4b5b-9762-223a427c3172",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--af395d90-18fd-42ee-8b67-7fd7e0d840e1",
+            "created_by_ref": "identity--31bd2836-9106-4402-ac4f-00e28ad3eb20",
+            "created": "2022-01-30T02:02:06.885639Z",
+            "modified": "2022-01-30T02:02:06.885639Z",
+            "name": "Competing Narratives",
+            "description": "TA01",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0004.md",
+                    "external_id": "T0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2dc91bbb-7fad-4317-849f-5f58f63c2ddf"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

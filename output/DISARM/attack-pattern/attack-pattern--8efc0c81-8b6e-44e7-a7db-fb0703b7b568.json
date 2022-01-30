@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7a9a72e-a586-4af1-9660-5cfdd767a12b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8efc0c81-8b6e-44e7-a7db-fb0703b7b568",
+            "created_by_ref": "identity--a6317c85-29c6-4361-8b32-ce855f29f868",
+            "created": "2022-01-30T02:04:04.821923Z",
+            "modified": "2022-01-30T02:04:04.821923Z",
+            "name": "WhatsApp",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0036.md",
+                    "external_id": "T0036"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--05783bad-b21d-46fc-b0f9-7d7627140aeb"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d589d98-6eb8-431e-a041-0df15a6df4a9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8db90e89-ff3e-4ee2-90d2-686b21bfb13f",
+            "created_by_ref": "identity--647ca627-d145-429a-94cf-6657a5429ca6",
+            "created": "2022-01-30T02:02:06.887597Z",
+            "modified": "2022-01-30T02:02:06.887597Z",
+            "name": "Cultivate ignorant agents",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0010.md",
+                    "external_id": "T0010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--246144f9-be21-4d66-81c5-6ca4ec3a153c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

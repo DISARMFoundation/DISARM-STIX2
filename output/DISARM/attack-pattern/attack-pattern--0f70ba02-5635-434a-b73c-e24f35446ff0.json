@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--23eaace0-177a-46ff-a20f-70fd4c32f7fa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0f70ba02-5635-434a-b73c-e24f35446ff0",
+            "created_by_ref": "identity--15e9808d-9f06-493d-b207-0f1710b978ad",
+            "created": "2022-01-30T02:02:06.894814Z",
+            "modified": "2022-01-30T02:02:06.894814Z",
+            "name": "Reddit",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0032.md",
+                    "external_id": "T0032"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1a8d91cb-e592-465c-b868-b3670dab83c3"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

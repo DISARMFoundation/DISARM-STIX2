@@ -1,0 +1,2400 @@
+{
+    "type": "bundle",
+    "id": "bundle--3a951112-a6d3-4e6a-b208-2dcf912dbc04",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--81580c91-075b-412d-9ba9-5fdb170bda86",
+            "created_by_ref": "identity--1efa9558-2757-4407-8b17-a83376cae2e6",
+            "created": "2022-01-30T02:04:04.806295Z",
+            "modified": "2022-01-30T02:04:04.806295Z",
+            "name": "Strategic Planning",
+            "description": "Define the desired end state, i.e. the set of required conditions that defines achievement of all objectives.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA01.md",
+                    "external_id": "TA01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f9ff96d6-56e3-4061-a288-ed62269b5235"
+            ],
+            "x_mitre_shortname": "strategic-planning"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--ed512a89-9d48-4bf7-a6b5-58770f8dfe5d",
+            "created_by_ref": "identity--0b5ca46f-0760-4a69-b8e9-c09016030b5e",
+            "created": "2022-01-30T02:04:04.806676Z",
+            "modified": "2022-01-30T02:04:04.806676Z",
+            "name": "Objective Planning",
+            "description": "Set clearly defined, measurable, and achievable objectives. Achieving objectives ties execution of tactical tasks to reaching the desired end state. There are four primary considerations:\n- Each desired effect should link directly to one or more objectives\n- The effect should be measurable\n- The objective statement should not specify the way and means of accomplishment\n- The effect should be distinguishable from the objective it supports as a condition for success, not as another objective or task.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA02.md",
+                    "external_id": "TA02"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f5d0cd87-ddea-40c7-a909-d1a919890306"
+            ],
+            "x_mitre_shortname": "objective-planning"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--1b6a4e79-3585-43b5-be53-9218f228e08c",
+            "created_by_ref": "identity--75fa274f-ab62-4178-ad97-22df754df438",
+            "created": "2022-01-30T02:04:04.806993Z",
+            "modified": "2022-01-30T02:04:04.806993Z",
+            "name": "Develop People",
+            "description": "Develop online and offline users and agents, including automated personas",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA03.md",
+                    "external_id": "TA03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b14f3f2a-5ccf-4f9e-a0d9-9d91202fe9b8"
+            ],
+            "x_mitre_shortname": "develop-people"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--2c0c0893-65bd-471a-ad9d-e2ccca115dd1",
+            "created_by_ref": "identity--15231176-6844-40ab-9b3f-3e59c1db36a0",
+            "created": "2022-01-30T02:04:04.807307Z",
+            "modified": "2022-01-30T02:04:04.807307Z",
+            "name": "Develop Networks",
+            "description": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA04.md",
+                    "external_id": "TA04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--057e6838-ace7-4a29-80ec-70c83e5ca1dd"
+            ],
+            "x_mitre_shortname": "develop-networks"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--52ffbf66-0b59-45c5-b474-87ebaac30bc9",
+            "created_by_ref": "identity--fd8de523-b31c-47da-a95e-344249b8a250",
+            "created": "2022-01-30T02:04:04.807631Z",
+            "modified": "2022-01-30T02:04:04.807631Z",
+            "name": "Microtargeting",
+            "description": "Target very specific populations of people",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA05.md",
+                    "external_id": "TA05"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--81790709-a2f3-4f64-b18e-2768ff659518"
+            ],
+            "x_mitre_shortname": "microtargeting"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--4bc76674-e49c-4a5b-8a10-6135164b2ff5",
+            "created_by_ref": "identity--a9a52bd7-de3e-498b-9c52-55298b9b8642",
+            "created": "2022-01-30T02:04:04.80794Z",
+            "modified": "2022-01-30T02:04:04.80794Z",
+            "name": "Develop Content",
+            "description": "Create and acquire content used in incident",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA06.md",
+                    "external_id": "TA06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8a25a666-88ac-4362-9c6a-217d9e5cf8a8"
+            ],
+            "x_mitre_shortname": "develop-content"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--80ee8b66-74e9-4930-904b-01d85a7e0256",
+            "created_by_ref": "identity--0c3f191c-0af8-4f7e-b4e8-d12708a5ce75",
+            "created": "2022-01-30T02:04:04.808248Z",
+            "modified": "2022-01-30T02:04:04.808248Z",
+            "name": "Channel Selection",
+            "description": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms. Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA07.md",
+                    "external_id": "TA07"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e20a9338-2124-49a7-a3c3-49c5f39eb613"
+            ],
+            "x_mitre_shortname": "channel-selection"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--6ba497d2-342a-48e6-94ef-42aad903871c",
+            "created_by_ref": "identity--f2677bcb-3b16-4ec4-b25e-be334b4add43",
+            "created": "2022-01-30T02:04:04.808556Z",
+            "modified": "2022-01-30T02:04:04.808556Z",
+            "name": "Pump Priming",
+            "description": "Release content on a targetted small scale, prior to general release, including releasing seed narratives",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA08.md",
+                    "external_id": "TA08"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f38a3e71-7770-4f7b-8a9f-76a43a96caa4"
+            ],
+            "x_mitre_shortname": "pump-priming"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--e541b359-0e7e-4366-92de-3e4f002a18be",
+            "created_by_ref": "identity--0a5d2e4f-7253-4f1b-99ce-bff36b2e11e0",
+            "created": "2022-01-30T02:04:04.808862Z",
+            "modified": "2022-01-30T02:04:04.808862Z",
+            "name": "Exposure",
+            "description": "Release content to general public or push to larger population",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA09.md",
+                    "external_id": "TA09"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--30f6eff8-8d45-40a8-9fc8-e9306201e487"
+            ],
+            "x_mitre_shortname": "exposure"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--4826c060-0433-4bbb-9845-3ac86c450243",
+            "created_by_ref": "identity--a3b0a387-70af-486a-827d-b124bdbb0630",
+            "created": "2022-01-30T02:04:04.809167Z",
+            "modified": "2022-01-30T02:04:04.809167Z",
+            "name": "Go Physical",
+            "description": "Move incident into offline world",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA10.md",
+                    "external_id": "TA10"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e29253b0-2ca2-46f7-a51b-9f203512959e"
+            ],
+            "x_mitre_shortname": "go-physical"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--b42889bd-8e0e-490e-8fdd-041e5be8389c",
+            "created_by_ref": "identity--4390605d-3308-46b7-b2ad-d1ae1a6c0a2b",
+            "created": "2022-01-30T02:04:04.809472Z",
+            "modified": "2022-01-30T02:04:04.809472Z",
+            "name": "Persistence",
+            "description": "Keep incident 'alive', beyond the incident creators' efforts",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA11.md",
+                    "external_id": "TA11"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--bc38b718-361f-4ec5-9fc1-7723ba618dd4"
+            ],
+            "x_mitre_shortname": "persistence"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--92f5cdc3-6a62-40c0-8bf2-29012d8fd720",
+            "created_by_ref": "identity--8c17f49a-983e-499a-86de-e4d6fc6678d6",
+            "created": "2022-01-30T02:04:04.809781Z",
+            "modified": "2022-01-30T02:04:04.809781Z",
+            "name": "Measure Effectiveness",
+            "description": "Measure effectiveness of incident, for use in planning future events",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA12.md",
+                    "external_id": "TA12"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--eec16356-3e4b-422e-a6c4-c9f85f829bc8"
+            ],
+            "x_mitre_shortname": "measure-effectiveness"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae8723a0-12f4-42fd-9032-03a50bb3aaa7",
+            "created_by_ref": "identity--8ff6c4c2-d3fc-48e5-ac9a-23d1fbfe03bb",
+            "created": "2022-01-30T02:04:04.810316Z",
+            "modified": "2022-01-30T02:04:04.810316Z",
+            "name": "5Ds (dismiss, distort, distract, dismay, divide)",
+            "description": "TA01",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0001.md",
+                    "external_id": "T0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--6058c892-1e86-4250-8e72-68b6e200a459"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0f2c29a8-3fc8-4be4-9cd4-4771a07777fb",
+            "created_by_ref": "identity--f3416ac4-a320-44df-92ea-849f6e1aed5b",
+            "created": "2022-01-30T02:04:04.810705Z",
+            "modified": "2022-01-30T02:04:04.810705Z",
+            "name": "Facilitate State Propaganda",
+            "description": "TA01",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0002.md",
+                    "external_id": "T0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--eca1603a-4a4d-407e-9cbd-875fcfcbe9d5"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4b5ac226-c22d-4239-a7d3-d2a032818c17",
+            "created_by_ref": "identity--fe2040ff-9868-4733-8707-5c5380240a3f",
+            "created": "2022-01-30T02:04:04.811039Z",
+            "modified": "2022-01-30T02:04:04.811039Z",
+            "name": "Leverage Existing Narratives",
+            "description": "TA01",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0003.md",
+                    "external_id": "T0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--24405830-5ce7-4480-968a-2c1ba1536611"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--524279a5-ae54-410f-af87-ffa9212542f1",
+            "created_by_ref": "identity--91f369f5-68e2-4910-b73c-659f44a7b97e",
+            "created": "2022-01-30T02:04:04.81137Z",
+            "modified": "2022-01-30T02:04:04.81137Z",
+            "name": "Competing Narratives",
+            "description": "TA01",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0004.md",
+                    "external_id": "T0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--85b3a75d-c07f-4b1e-a158-de272d41dab5"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2c709929-a41c-4d1c-b2be-3a112f95f1c0",
+            "created_by_ref": "identity--e5db3c90-34f1-4da1-8d32-9400698271a4",
+            "created": "2022-01-30T02:04:04.811699Z",
+            "modified": "2022-01-30T02:04:04.811699Z",
+            "name": "Center of Gravity Analysis",
+            "description": "TA02",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "objective-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0005.md",
+                    "external_id": "T0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b51ed880-7480-425e-90fe-88ef95ad90ab"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--33096476-b822-4a80-9207-3e2583e4fd55",
+            "created_by_ref": "identity--5efd7b96-a07e-4ed3-bfdb-191f3ebec517",
+            "created": "2022-01-30T02:04:04.812026Z",
+            "modified": "2022-01-30T02:04:04.812026Z",
+            "name": "Create Master Narratives",
+            "description": "TA02",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "objective-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0006.md",
+                    "external_id": "T0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8aed3c1f-85e0-45ab-81e5-e00f3157c868"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5effa3f7-703d-49b5-9a0d-689249935a8e",
+            "created_by_ref": "identity--89c7b49d-299b-4e57-b03c-710787dad877",
+            "created": "2022-01-30T02:04:04.812356Z",
+            "modified": "2022-01-30T02:04:04.812356Z",
+            "name": "Create fake Social Media Profiles / Pages / Groups",
+            "description": "TA03",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0007.md",
+                    "external_id": "T0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--57f1cadc-9bc2-4a69-a525-1b42507d4fe8"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5a681b66-66e0-43cf-860d-4b00bd4041b1",
+            "created_by_ref": "identity--11e435f6-8441-456e-ba38-f0aa1845b4fd",
+            "created": "2022-01-30T02:04:04.812682Z",
+            "modified": "2022-01-30T02:04:04.812682Z",
+            "name": "Create fake or imposter news sites",
+            "description": "TA03",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0008.md",
+                    "external_id": "T0008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--488ee847-be6e-47b2-8e1b-1c663f7c6479"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b95e6e9c-1412-49da-be07-0f6eb0e0b7fa",
+            "created_by_ref": "identity--60ee8e5a-71a9-4713-b82a-5ef3f47ede6c",
+            "created": "2022-01-30T02:04:04.813007Z",
+            "modified": "2022-01-30T02:04:04.813007Z",
+            "name": "Create fake experts",
+            "description": "TA03",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0009.md",
+                    "external_id": "T0009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--27dd9562-d669-4f24-a777-a531eddc6e33"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f73c8b3a-5963-40b5-824d-690626e13e35",
+            "created_by_ref": "identity--21e4c494-5db7-448e-bed6-bce7f648cae9",
+            "created": "2022-01-30T02:04:04.813332Z",
+            "modified": "2022-01-30T02:04:04.813332Z",
+            "name": "Cultivate ignorant agents",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0010.md",
+                    "external_id": "T0010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e689b1f8-7cd2-4960-a227-4a6ac4fce8c2"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--570ed234-1e9c-4241-836e-28c744bce96a",
+            "created_by_ref": "identity--afe933fa-8f82-486d-b6ef-98e2f647c885",
+            "created": "2022-01-30T02:04:04.813697Z",
+            "modified": "2022-01-30T02:04:04.813697Z",
+            "name": "Hijack legitimate account",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0011.md",
+                    "external_id": "T0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f40d3a27-4a47-4aa4-9d2d-2f183197a4e7"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4d859a69-0eff-4a16-b681-3b72b0da687d",
+            "created_by_ref": "identity--49eedb27-8a22-4505-adbe-45adcec52b94",
+            "created": "2022-01-30T02:04:04.814031Z",
+            "modified": "2022-01-30T02:04:04.814031Z",
+            "name": "Use concealment",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0012.md",
+                    "external_id": "T0012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--18104d0a-69d8-436e-9f69-847dfc863e6c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0106bc62-d0b0-4781-9df7-de7f6def7164",
+            "created_by_ref": "identity--e422ec50-5b08-4a9a-b05e-9726a96ef673",
+            "created": "2022-01-30T02:04:04.814366Z",
+            "modified": "2022-01-30T02:04:04.814366Z",
+            "name": "Create fake websites",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0013.md",
+                    "external_id": "T0013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e7a11dd6-f0f4-4dba-9dc5-60bc2e4a6f53"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3aa2edd9-e422-4f48-a151-a4aad3d3ebd1",
+            "created_by_ref": "identity--573adfa9-7805-459c-b0cc-7e4259bb7bfa",
+            "created": "2022-01-30T02:04:04.814697Z",
+            "modified": "2022-01-30T02:04:04.814697Z",
+            "name": "Create funding campaigns",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0014.md",
+                    "external_id": "T0014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--82f57500-95fe-4dda-ad06-b930c7f4338d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--87ed0996-d88e-45bb-a723-37f01f7bc950",
+            "created_by_ref": "identity--c4637866-c2d5-4dbc-b918-25167830db1a",
+            "created": "2022-01-30T02:04:04.815027Z",
+            "modified": "2022-01-30T02:04:04.815027Z",
+            "name": "Create hashtag",
+            "description": "TA04",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0015.md",
+                    "external_id": "T0015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--cef515d9-36c8-49df-a80a-6d565932de37"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4407d6e3-72d5-413f-9746-c971275946ea",
+            "created_by_ref": "identity--5727cc1e-84e5-4461-bfe2-70d8f2d4091a",
+            "created": "2022-01-30T02:04:04.815358Z",
+            "modified": "2022-01-30T02:04:04.815358Z",
+            "name": "Clickbait",
+            "description": "TA05",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0016.md",
+                    "external_id": "T0016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--223ed922-0e49-4e7b-a393-ad7286eccf81"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fb0e364a-3809-4a7f-98db-8bf9ad2ee66a",
+            "created_by_ref": "identity--e103d96a-1394-4fd2-8fe5-afb615b59e9d",
+            "created": "2022-01-30T02:04:04.815688Z",
+            "modified": "2022-01-30T02:04:04.815688Z",
+            "name": "Promote online funding",
+            "description": "TA05",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0017.md",
+                    "external_id": "T0017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0a4d53ec-9257-4cb2-8787-94cecab71ada"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--61667141-8501-4518-b666-4b79d0a3d8bf",
+            "created_by_ref": "identity--18974c18-63ea-4b8c-86db-47aea1b37e18",
+            "created": "2022-01-30T02:04:04.816014Z",
+            "modified": "2022-01-30T02:04:04.816014Z",
+            "name": "Paid targeted ads",
+            "description": "TA05",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0018.md",
+                    "external_id": "T0018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--89178481-252a-4e04-93e8-c9de022b389e"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--27e41774-d5a9-4464-9275-e4c9f0003f49",
+            "created_by_ref": "identity--d5f02746-47e8-4803-b218-7d7545ce68d4",
+            "created": "2022-01-30T02:04:04.816343Z",
+            "modified": "2022-01-30T02:04:04.816343Z",
+            "name": "Generate information pollution",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0019.md",
+                    "external_id": "T0019"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3b52218e-f69d-47ad-892e-aa5afa2fc2d6"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6f8be373-51d6-4606-914a-3ab86ad31c1e",
+            "created_by_ref": "identity--0b0cbe1f-aead-4483-a3c6-8069e6f8627f",
+            "created": "2022-01-30T02:04:04.816671Z",
+            "modified": "2022-01-30T02:04:04.816671Z",
+            "name": "Trial content",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0020.md",
+                    "external_id": "T0020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--72417da8-5a2e-4e5c-a416-45e658d9a8a0"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3c2ee0bb-621c-4b79-914e-1e8933c34800",
+            "created_by_ref": "identity--b9cc29eb-a3f3-44f5-9447-c64ff3d1d8e8",
+            "created": "2022-01-30T02:04:04.817Z",
+            "modified": "2022-01-30T02:04:04.817Z",
+            "name": "Memes",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0021.md",
+                    "external_id": "T0021"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5652661c-acd6-4173-8e26-0499366fa53d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9eaee21e-fca0-4bee-928e-ecfe6df4c9a2",
+            "created_by_ref": "identity--cbebe90f-8bc6-400d-ae54-0372bb06577b",
+            "created": "2022-01-30T02:04:04.817334Z",
+            "modified": "2022-01-30T02:04:04.817334Z",
+            "name": "Conspiracy narratives",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0022.md",
+                    "external_id": "T0022"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--aed232c8-0561-4c37-a7c4-01d93a1ee32d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1551d7c9-bc5d-4a88-8267-33c84f9fa9b4",
+            "created_by_ref": "identity--82221ce3-9d19-45bc-ba15-819b0c6f5f01",
+            "created": "2022-01-30T02:04:04.817661Z",
+            "modified": "2022-01-30T02:04:04.817661Z",
+            "name": "Distort facts",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0023.md",
+                    "external_id": "T0023"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--10a41f13-8d96-4d6e-9c46-5591a5ba8bcd"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e7007a5d-ef31-4005-aca8-cd00b268e40a",
+            "created_by_ref": "identity--c2f3c8eb-ab83-400a-8555-0c2f51780c24",
+            "created": "2022-01-30T02:04:04.817995Z",
+            "modified": "2022-01-30T02:04:04.817995Z",
+            "name": "Create fake videos and images",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0024.md",
+                    "external_id": "T0024"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0eafc695-bdae-44e5-923c-6d87fa8f8db1"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--99e6e2fc-8614-49d0-ac72-fb8c5b18917e",
+            "created_by_ref": "identity--99dee30d-d513-4f46-818e-4178dde1322f",
+            "created": "2022-01-30T02:04:04.818321Z",
+            "modified": "2022-01-30T02:04:04.818321Z",
+            "name": "Leak altered documents",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0025.md",
+                    "external_id": "T0025"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--6b1427dd-1982-484d-a18d-aa37c7beeb76"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3f5536b8-531d-4fa3-9d0d-bffdf0bc2759",
+            "created_by_ref": "identity--bbb40df1-3808-4070-88d7-c8992761b262",
+            "created": "2022-01-30T02:04:04.818644Z",
+            "modified": "2022-01-30T02:04:04.818644Z",
+            "name": "Create fake research",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0026.md",
+                    "external_id": "T0026"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d4d1a76e-ce6c-4e8d-9890-220a1b497ebd"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eec1bec3-1755-4486-886c-f3052ccff9b4",
+            "created_by_ref": "identity--67848ee9-dcfb-4dee-8472-ee85e088d995",
+            "created": "2022-01-30T02:04:04.818968Z",
+            "modified": "2022-01-30T02:04:04.818968Z",
+            "name": "Adapt existing narratives",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0027.md",
+                    "external_id": "T0027"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2838f010-af4b-4c85-ac94-5dcb6d729de7"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c28f8e63-f56d-43d5-8a55-8517b11ed3a6",
+            "created_by_ref": "identity--1424bd35-aca8-4df8-b437-21610d7086bf",
+            "created": "2022-01-30T02:04:04.819298Z",
+            "modified": "2022-01-30T02:04:04.819298Z",
+            "name": "Create competing narratives",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0028.md",
+                    "external_id": "T0028"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--10c4a327-92e7-448f-92a0-a578c09864a3"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eb36e85c-1d3a-48dd-9615-7a87ebd7925e",
+            "created_by_ref": "identity--1ecf207d-24a3-4b29-97c0-6f3bebcd53f4",
+            "created": "2022-01-30T02:04:04.819624Z",
+            "modified": "2022-01-30T02:04:04.819624Z",
+            "name": "Manipulate online polls",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0029.md",
+                    "external_id": "T0029"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--4e100278-4370-40dd-bdf6-99d7f355d0c0"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--befdb8dc-12c2-4814-a985-d3d4e6d4ee45",
+            "created_by_ref": "identity--3ed071a4-274c-480e-9514-805c3a95eb03",
+            "created": "2022-01-30T02:04:04.819956Z",
+            "modified": "2022-01-30T02:04:04.819956Z",
+            "name": "Backstop personas",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0030.md",
+                    "external_id": "T0030"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0740c36f-5dd7-429a-99b1-5ad80688bb0f"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1c9e7f69-901c-4ae3-a503-8072daf06570",
+            "created_by_ref": "identity--8f456a61-38e2-40c9-a044-9af0d753f27a",
+            "created": "2022-01-30T02:04:04.820287Z",
+            "modified": "2022-01-30T02:04:04.820287Z",
+            "name": "YouTube",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0031.md",
+                    "external_id": "T0031"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--59f46339-e2c1-4a85-9e02-ab3c4ffa504a"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4d052b17-cc75-4a42-afdf-11b9ba29cafa",
+            "created_by_ref": "identity--fe6133aa-2c2d-454a-b064-8bf949e5fe31",
+            "created": "2022-01-30T02:04:04.820619Z",
+            "modified": "2022-01-30T02:04:04.820619Z",
+            "name": "Reddit",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0032.md",
+                    "external_id": "T0032"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e91a75bd-27c0-4282-b0e8-6837aaf4e430"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c4ef6515-121d-41a5-a8d4-e071f0b4e0fb",
+            "created_by_ref": "identity--f4cc26c2-245f-45da-8fd9-7b947dd10e78",
+            "created": "2022-01-30T02:04:04.820944Z",
+            "modified": "2022-01-30T02:04:04.820944Z",
+            "name": "Instagram",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0033.md",
+                    "external_id": "T0033"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--da16c651-5e38-4932-9a6f-0b1ce15b15c2"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--611d3169-5a0d-4139-ae68-c2b91a5d983a",
+            "created_by_ref": "identity--46a12230-674a-40c7-83a5-9bf4ce823bbb",
+            "created": "2022-01-30T02:04:04.821274Z",
+            "modified": "2022-01-30T02:04:04.821274Z",
+            "name": "LinkedIn",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0034.md",
+                    "external_id": "T0034"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9f87d144-a616-4c63-b0b2-4226c12e264d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--37ae2710-ffb0-4fe2-ad21-a4b78204a6fc",
+            "created_by_ref": "identity--70650395-6f3c-4b42-9a0a-722158d47225",
+            "created": "2022-01-30T02:04:04.821598Z",
+            "modified": "2022-01-30T02:04:04.821598Z",
+            "name": "Pinterest",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0035.md",
+                    "external_id": "T0035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--50b9c31b-c001-4118-9beb-37afd876725c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8efc0c81-8b6e-44e7-a7db-fb0703b7b568",
+            "created_by_ref": "identity--a6317c85-29c6-4361-8b32-ce855f29f868",
+            "created": "2022-01-30T02:04:04.821923Z",
+            "modified": "2022-01-30T02:04:04.821923Z",
+            "name": "WhatsApp",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0036.md",
+                    "external_id": "T0036"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--05783bad-b21d-46fc-b0f9-7d7627140aeb"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae938693-368a-4e27-b191-9f4ec3126427",
+            "created_by_ref": "identity--c6f41837-faf8-4482-b359-67e932896aaa",
+            "created": "2022-01-30T02:04:04.822254Z",
+            "modified": "2022-01-30T02:04:04.822254Z",
+            "name": "Facebook",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0037.md",
+                    "external_id": "T0037"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--592f38a2-9301-4c41-9d71-ed431ebedd9e"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--08bb99eb-675c-4b5e-b944-d895cee2fcf6",
+            "created_by_ref": "identity--f1ef5a2d-d31c-46e0-8337-9f67a89bbb8a",
+            "created": "2022-01-30T02:04:04.822608Z",
+            "modified": "2022-01-30T02:04:04.822608Z",
+            "name": "Twitter",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0038.md",
+                    "external_id": "T0038"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5e205673-9790-4279-9fc4-f9cb9fcdcf26"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4f58a3bc-a39a-4924-96df-2c09584be659",
+            "created_by_ref": "identity--3ccbbc67-ab22-4589-947c-f55eafb09673",
+            "created": "2022-01-30T02:04:04.822935Z",
+            "modified": "2022-01-30T02:04:04.822935Z",
+            "name": "Bait legitimate influencers",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0039.md",
+                    "external_id": "T0039"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--47faf26a-0d30-4ce4-ad4b-fca156c385ad"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7b848a07-0e35-4f7f-b5fc-fe4d6309a06e",
+            "created_by_ref": "identity--52eb5cc3-36b8-4ea7-a40d-d60c668db301",
+            "created": "2022-01-30T02:04:04.823262Z",
+            "modified": "2022-01-30T02:04:04.823262Z",
+            "name": "Demand unsurmountable proof",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0040.md",
+                    "external_id": "T0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--56efdb5a-dce0-4737-accc-2076115b8c78"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9f2f67bc-cb8d-47e9-b702-40fd2cca41fc",
+            "created_by_ref": "identity--c858f454-174f-49d5-9e88-fe5ed670e570",
+            "created": "2022-01-30T02:04:04.823587Z",
+            "modified": "2022-01-30T02:04:04.823587Z",
+            "name": "Deny involvement",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0041.md",
+                    "external_id": "T0041"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1d193c7f-95ab-4b1b-8da5-70ef8e69c111"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0b2f7397-97b7-46e7-b0bf-d3499d96538c",
+            "created_by_ref": "identity--006798eb-99f3-43ab-ab66-fec5efeb851b",
+            "created": "2022-01-30T02:04:04.823914Z",
+            "modified": "2022-01-30T02:04:04.823914Z",
+            "name": "Kernel of Truth",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0042.md",
+                    "external_id": "T0042"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e9b1329c-bc40-4e20-8524-086cc147ee67"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bf8fcb82-00cc-49eb-8461-97e2a7334957",
+            "created_by_ref": "identity--1d557f75-9b10-468b-97ae-c4335b592f4e",
+            "created": "2022-01-30T02:04:04.824241Z",
+            "modified": "2022-01-30T02:04:04.824241Z",
+            "name": "Use SMS/ WhatsApp/ Chat apps",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0043.md",
+                    "external_id": "T0043"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d7aa1c41-0064-4d8b-9528-de26405f0d80"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--81930aa4-754d-4200-9ae0-8bbf09ade84e",
+            "created_by_ref": "identity--9f66296e-9392-46cd-aa5d-ecfec00e591b",
+            "created": "2022-01-30T02:04:04.824565Z",
+            "modified": "2022-01-30T02:04:04.824565Z",
+            "name": "Seed distortions",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0044.md",
+                    "external_id": "T0044"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--a79e96b7-3d64-4b80-a6b2-7eda06384613"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8d6cf161-a372-4a6d-afe5-40e9d0973bfa",
+            "created_by_ref": "identity--20524c30-1401-4a12-910b-52522c0e14f1",
+            "created": "2022-01-30T02:04:04.82489Z",
+            "modified": "2022-01-30T02:04:04.82489Z",
+            "name": "Use fake experts",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0045.md",
+                    "external_id": "T0045"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5740e6ac-9cb6-4b7e-a116-181d01a2cd8e"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--78ba70dc-f008-4754-b1a0-477db528abab",
+            "created_by_ref": "identity--788caff8-cb2d-4bfa-a4cf-181a898df3ff",
+            "created": "2022-01-30T02:04:04.825218Z",
+            "modified": "2022-01-30T02:04:04.825218Z",
+            "name": "Search Engine Optimization",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0046.md",
+                    "external_id": "T0046"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--303c298c-701f-4c65-94ca-75c4d8936b1e"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--330ff3d2-b806-4cb0-beab-ede98e076253",
+            "created_by_ref": "identity--ba21e8ff-adb9-41d9-9fe7-84155d01aea2",
+            "created": "2022-01-30T02:04:04.825542Z",
+            "modified": "2022-01-30T02:04:04.825542Z",
+            "name": "Muzzle social media as a political force",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0047.md",
+                    "external_id": "T0047"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3995a137-eccc-446c-a619-e16b99b53a84"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7851dd8d-3806-4261-9246-aba94030d9fd",
+            "created_by_ref": "identity--5e9854b4-2c89-48a4-96b0-aa4164c36df4",
+            "created": "2022-01-30T02:04:04.825864Z",
+            "modified": "2022-01-30T02:04:04.825864Z",
+            "name": "Cow online opinion leaders",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0048.md",
+                    "external_id": "T0048"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--edf76f4d-eff9-40b4-9b5a-4af8db858fd0"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0a3357b1-cc22-4fe6-aa16-68ca335c3f97",
+            "created_by_ref": "identity--99795b2f-84eb-4227-affd-5273f1f8bb3a",
+            "created": "2022-01-30T02:04:04.826188Z",
+            "modified": "2022-01-30T02:04:04.826188Z",
+            "name": "Flooding",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0049.md",
+                    "external_id": "T0049"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f2526c52-35fb-4521-8ef3-efe5480218fb"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aec081bc-c0ed-4a5e-bf66-a60a384745f1",
+            "created_by_ref": "identity--2d310caa-2902-4e0e-99e5-d48a57ef9e4f",
+            "created": "2022-01-30T02:04:04.826519Z",
+            "modified": "2022-01-30T02:04:04.826519Z",
+            "name": "Cheerleading domestic social media ops",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0050.md",
+                    "external_id": "T0050"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2f483d13-e24a-4104-b0d1-eff5e5dbdd69"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8135b8f4-882c-4154-b538-6a67f462c730",
+            "created_by_ref": "identity--0813c52f-3f1f-43dc-b013-b3e65175450c",
+            "created": "2022-01-30T02:04:04.826847Z",
+            "modified": "2022-01-30T02:04:04.826847Z",
+            "name": "Fabricate social media comment",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0051.md",
+                    "external_id": "T0051"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--874e2cc2-23d8-45c8-bc0f-ddc746314a5b"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f8f0fa01-a6a5-4d4c-b13c-12757c151454",
+            "created_by_ref": "identity--d5ee47be-873f-4b2e-9330-21866a52b640",
+            "created": "2022-01-30T02:04:04.827175Z",
+            "modified": "2022-01-30T02:04:04.827175Z",
+            "name": "Tertiary sites amplify news",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0052.md",
+                    "external_id": "T0052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b14fb132-e956-4146-aa9b-07427ee08b9d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3511ee3e-d1c5-46d8-a273-7d9e38731d20",
+            "created_by_ref": "identity--e7253b81-4eab-4220-a089-215f6aef6de3",
+            "created": "2022-01-30T02:04:04.827499Z",
+            "modified": "2022-01-30T02:04:04.827499Z",
+            "name": "Twitter trolls amplify and manipulate",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0053.md",
+                    "external_id": "T0053"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--23cb6494-a6a8-4e89-8bee-ed68a2cc1ffb"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d5fd40be-3ed9-427e-a4ce-f1f12b813a5c",
+            "created_by_ref": "identity--6dd99c8a-cba9-4cdf-b527-0647e351d57f",
+            "created": "2022-01-30T02:04:04.827824Z",
+            "modified": "2022-01-30T02:04:04.827824Z",
+            "name": "Twitter bots amplify",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0054.md",
+                    "external_id": "T0054"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1eb26e4e-0f87-4b67-aa24-ffc2d6c81cf0"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f7344ba2-49ff-45c5-8528-23b3f3e99824",
+            "created_by_ref": "identity--2ae5f424-e7bf-4afb-84e5-a2c936b4a234",
+            "created": "2022-01-30T02:04:04.828152Z",
+            "modified": "2022-01-30T02:04:04.828152Z",
+            "name": "Use hashtag",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0055.md",
+                    "external_id": "T0055"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c77076ea-d830-447b-acb2-e48671353946"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7bb28c5d-3421-4c55-be31-e3864b6ed3df",
+            "created_by_ref": "identity--f5bc01c3-fd10-42d0-b097-583f32bc10d5",
+            "created": "2022-01-30T02:04:04.828476Z",
+            "modified": "2022-01-30T02:04:04.828476Z",
+            "name": "Dedicated channels disseminate information pollution",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0056.md",
+                    "external_id": "T0056"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--08e65ebb-79cc-4f42-a091-8846fca75329"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--462fdf3e-89bc-45ac-bad0-fa1fa6a46e3c",
+            "created_by_ref": "identity--5639ac8a-bed4-4f0f-9900-a6d2c7673150",
+            "created": "2022-01-30T02:04:04.8288Z",
+            "modified": "2022-01-30T02:04:04.8288Z",
+            "name": "Organise remote rallies and events",
+            "description": "TA10",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "go-physical"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0057.md",
+                    "external_id": "T0057"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b334e726-b6c0-422f-bcd5-f63ba61ea73f"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eb325d32-5cd4-49c4-8e79-70f46ddb0007",
+            "created_by_ref": "identity--6225f799-4447-400e-b90d-9e84b0b48339",
+            "created": "2022-01-30T02:04:04.829126Z",
+            "modified": "2022-01-30T02:04:04.829126Z",
+            "name": "Legacy web content",
+            "description": "TA11",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0058.md",
+                    "external_id": "T0058"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1ce5cd28-f9a9-4850-8f42-4864ea544dd4"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5064e6a6-9e71-4b20-9fad-cf135407ea2a",
+            "created_by_ref": "identity--d4a88c2d-13a1-4f4f-bd45-a80d20f6e48a",
+            "created": "2022-01-30T02:04:04.829456Z",
+            "modified": "2022-01-30T02:04:04.829456Z",
+            "name": "Play the long game",
+            "description": "TA11",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0059.md",
+                    "external_id": "T0059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2efe28d6-57fb-4a8b-a89e-a1945aa31671"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c517e727-409e-4c48-b332-f877185e7618",
+            "created_by_ref": "identity--02fee612-db7d-45bb-ad7f-5e4ccaf27f92",
+            "created": "2022-01-30T02:04:04.829781Z",
+            "modified": "2022-01-30T02:04:04.829781Z",
+            "name": "Continue to amplify",
+            "description": "TA11",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0060.md",
+                    "external_id": "T0060"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1a7783f0-63e9-47d0-b9d8-8ba14b41ca13"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2bdefe21-c930-4de6-9748-07346342f5d9",
+            "created_by_ref": "identity--8e295ff0-6cc4-44c1-9a2f-6aa2bf4071b8",
+            "created": "2022-01-30T02:04:04.830105Z",
+            "modified": "2022-01-30T02:04:04.830105Z",
+            "name": "Sell merchandising",
+            "description": "TA10",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "go-physical"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0061.md",
+                    "external_id": "T0061"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0cdcd19a-4e75-49ae-a7ab-2c5369d26c72"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a0d2abf8-d812-4eff-ac19-09011c4964f5",
+            "created_by_ref": "identity--67d8e665-5324-4147-99ee-b7462752cd17",
+            "created": "2022-01-30T02:04:04.830428Z",
+            "modified": "2022-01-30T02:04:04.830428Z",
+            "name": "Behaviour changes",
+            "description": "TA12",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "measure-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0062.md",
+                    "external_id": "T0062"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--086a8f4b-cf89-4653-af97-c934dea24700"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b713c794-9e87-417e-a6ec-f7e460b8ad5c",
+            "created_by_ref": "identity--bc4a3681-8058-46da-bcc5-ff8cd1725792",
+            "created": "2022-01-30T02:04:04.830751Z",
+            "modified": "2022-01-30T02:04:04.830751Z",
+            "name": "Message reach",
+            "description": "TA12",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "measure-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0063.md",
+                    "external_id": "T0063"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--82c504bb-5923-4bb7-bc94-bf07037814ab"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--202b99d1-a756-4a99-80e4-99f73d38a9b4",
+            "created_by_ref": "identity--3dd7bd29-5c6d-4454-ba85-271e542568b1",
+            "created": "2022-01-30T02:04:04.831078Z",
+            "modified": "2022-01-30T02:04:04.831078Z",
+            "name": "Social media engagement",
+            "description": "TA12",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "measure-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0064.md",
+                    "external_id": "T0064"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00db12eb-3ef9-4d29-ba8f-090766693380"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        },
+        {
+            "type": "x-mitre-matrix",
+            "spec_version": "2.1",
+            "id": "x-mitre-matrix--4baa8c41-bb33-41aa-a587-7c4c0e97d390",
+            "created": "2022-01-30T02:04:04.831237Z",
+            "modified": "2022-01-30T02:04:04.831237Z",
+            "name": "DISARM Framework",
+            "description": "DISARM is a framework designed for describing and understanding disinformation incidents.",
+            "tactic_refs": [
+                "x-mitre-tactic--81580c91-075b-412d-9ba9-5fdb170bda86",
+                "x-mitre-tactic--ed512a89-9d48-4bf7-a6b5-58770f8dfe5d",
+                "x-mitre-tactic--1b6a4e79-3585-43b5-be53-9218f228e08c",
+                "x-mitre-tactic--2c0c0893-65bd-471a-ad9d-e2ccca115dd1",
+                "x-mitre-tactic--52ffbf66-0b59-45c5-b474-87ebaac30bc9",
+                "x-mitre-tactic--4bc76674-e49c-4a5b-8a10-6135164b2ff5",
+                "x-mitre-tactic--80ee8b66-74e9-4930-904b-01d85a7e0256",
+                "x-mitre-tactic--6ba497d2-342a-48e6-94ef-42aad903871c",
+                "x-mitre-tactic--e541b359-0e7e-4366-92de-3e4f002a18be",
+                "x-mitre-tactic--4826c060-0433-4bbb-9845-3ac86c450243",
+                "x-mitre-tactic--b42889bd-8e0e-490e-8fdd-041e5be8389c",
+                "x-mitre-tactic--92f5cdc3-6a62-40c0-8bf2-29012d8fd720"
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation",
+                    "external_id": "DISARM"
+                }
+            ]
+        }
+    ]
+}

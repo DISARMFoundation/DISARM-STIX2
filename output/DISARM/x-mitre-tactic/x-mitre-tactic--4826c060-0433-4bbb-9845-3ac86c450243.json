@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--d289b696-e962-4cb7-8f50-3c96c854ef75",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--4826c060-0433-4bbb-9845-3ac86c450243",
+            "created_by_ref": "identity--a3b0a387-70af-486a-827d-b124bdbb0630",
+            "created": "2022-01-30T02:04:04.809167Z",
+            "modified": "2022-01-30T02:04:04.809167Z",
+            "name": "Go Physical",
+            "description": "Move incident into offline world",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA10.md",
+                    "external_id": "TA10"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e29253b0-2ca2-46f7-a51b-9f203512959e"
+            ],
+            "x_mitre_shortname": "go-physical"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--35af0172-495e-4f3e-b567-83c3ec2abfd8",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--b42889bd-8e0e-490e-8fdd-041e5be8389c",
+            "created_by_ref": "identity--4390605d-3308-46b7-b2ad-d1ae1a6c0a2b",
+            "created": "2022-01-30T02:04:04.809472Z",
+            "modified": "2022-01-30T02:04:04.809472Z",
+            "name": "Persistence",
+            "description": "Keep incident 'alive', beyond the incident creators' efforts",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA11.md",
+                    "external_id": "TA11"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--bc38b718-361f-4ec5-9fc1-7723ba618dd4"
+            ],
+            "x_mitre_shortname": "persistence"
+        }
+    ]
+}
