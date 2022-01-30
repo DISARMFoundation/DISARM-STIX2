@@ -39,6 +39,7 @@ def generate_disarm_stix():
 
     disarm_bundle = bundle.make_stix_bundle(stix_objects)
 
+    helpers.file.clean_output_dir()
     helpers.file.write_files(stix_objects)
     helpers.file.write_bundle(disarm_bundle, "DISARM")
 

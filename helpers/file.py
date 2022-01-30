@@ -1,7 +1,7 @@
 import json
 import os
 from stix2 import Bundle
-import stix2
+import shutil
 
 
 def write_disarm_dir(dir):
@@ -22,6 +22,15 @@ def write_disarm_dir(dir):
         os.mkdir('output/' + dir)
     except FileExistsError:
         pass
+
+
+def clean_output_dir():
+    """Recursively delete the output folder.
+
+    Returns:
+
+    """
+    shutil.rmtree("output/")
 
 
 def write_file(file_name, file_data):
