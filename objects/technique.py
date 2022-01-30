@@ -14,7 +14,7 @@ def make_disarm_techniques(data):
         A list of Techniques.
 
     """
-    tacdict = pd.Series(data["tactics"].name.values, index=data["tactics"].amitt_id).to_dict()
+    tacdict = pd.Series(data["tactics"].name.values, index=data["tactics"].disarm_id).to_dict()
     techniques = []
     for t in data["techniques"].values.tolist():
         external_references = [
