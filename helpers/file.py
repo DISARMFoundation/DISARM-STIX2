@@ -14,12 +14,12 @@ def write_disarm_dir(dir):
 
     """
     try:
-        os.mkdir('output/DISARM')
+        os.mkdir('output/')
     except FileExistsError:
         pass
 
     try:
-        os.mkdir('output/DISARM/' + dir)
+        os.mkdir('output/' + dir)
     except FileExistsError:
         pass
 
@@ -51,7 +51,7 @@ def write_files(stix_objects):
     """
     for i in stix_objects:
         write_disarm_dir(i.type)
-        write_file(f"output/DISARM/{i.type}/{i.id}.json", Bundle(i, allow_custom=True))
+        write_file(f"output/{i.type}/{i.id}.json", Bundle(i, allow_custom=True))
 
 
 def write_bundle(bundle, bundle_name):
@@ -64,4 +64,4 @@ def write_bundle(bundle, bundle_name):
     Returns:
 
     """
-    write_file(f"output/DISARM/{bundle_name}.json", bundle)
+    write_file(f"output/{bundle_name}.json", bundle)
