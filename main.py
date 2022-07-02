@@ -25,11 +25,13 @@ def generate_disarm_stix():
 
     tactics = tactic.make_disarm_tactics(data)
     techniques = technique.make_disarm_techniques(data)
+    subtechniques = technique.make_disarm_subtechniques(data)
     navigator_matrix = matrix.make_disarm_matrix(tactics)
 
     stix_objects = []
     stix_objects.append(tactics)
     stix_objects.append(techniques)
+    stix_objects.append(subtechniques)
     stix_objects.append(navigator_matrix)
 
     stix_objects = [item for sublist in stix_objects for item in sublist]
