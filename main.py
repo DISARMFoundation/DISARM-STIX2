@@ -36,8 +36,6 @@ def generate_disarm_stix():
 
     stix_objects = [item for sublist in stix_objects for item in sublist]
 
-    # for i in stix_objects:
-    #     print(i)
 
     disarm_bundle = bundle.make_stix_bundle(stix_objects)
 
