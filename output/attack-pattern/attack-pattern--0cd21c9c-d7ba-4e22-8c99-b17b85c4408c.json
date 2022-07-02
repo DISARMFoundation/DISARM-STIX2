@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f8d7784-0382-4408-9fc9-6ef5dab963ab",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0cd21c9c-d7ba-4e22-8c99-b17b85c4408c",
+            "created_by_ref": "identity--d3363c75-a9d5-4668-82bd-787268dc58ed",
+            "created": "2022-07-02T19:47:42.466823Z",
+            "modified": "2022-07-02T19:47:42.466823Z",
+            "name": "Distort facts",
+            "description": "Change, twist, or exaggerate existing facts to construct a narrative that differs from reality. Examples: images and ideas can be distorted by being placed in an improper content",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0023.md",
+                    "external_id": "T0023"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--7aa96250-95a5-4050-a819-bed270d9dea4"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab1ead23-5463-44c4-989a-d5a33d939449",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d4aee137-43ca-49d1-a5eb-a6a1c936e3cd",
+            "created_by_ref": "identity--f6c3716a-e126-4549-acf7-ab0cdd9c5f2f",
+            "created": "2022-07-02T19:47:42.490453Z",
+            "modified": "2022-07-02T19:47:42.490453Z",
+            "name": "Develop Text-based Content",
+            "description": "Creating and editing false or misleading text-based artifacts, often aligned with one or more specific narratives, for use in a disinformation campaign.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0085.md",
+                    "external_id": "T0085"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d0bb45e0-8675-49ef-a667-12861c933006"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b2655213-b6ed-4372-994e-8c7b75e0199d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--75dfd22b-229f-466c-9b39-c8f13b6fa3b8",
+            "created_by_ref": "identity--0cd23a91-5388-4a56-9ffb-9e6b1a1c1a43",
+            "created": "2022-07-02T19:47:42.487558Z",
+            "modified": "2022-07-02T19:47:42.487558Z",
+            "name": "Identify Target Audience Adversaries",
+            "description": "An influence operation may identify or create a real or imaginary adversary to center operation  narratives against. A real adversary may include certain politicians or political parties while  imaginary adversaries may include falsified \u201cdeep state\u201d62 actors that, according to conspiracies,  run the state behind public view. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0081.007.md",
+                    "external_id": "T0081.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e07009dd-6b79-4d78-b346-19467e87f2f2"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

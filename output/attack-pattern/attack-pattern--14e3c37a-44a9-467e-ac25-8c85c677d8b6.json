@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab2c9c60-0762-41fb-8f83-f9931ad24d94",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--14e3c37a-44a9-467e-ac25-8c85c677d8b6",
+            "created_by_ref": "identity--ccd16ca4-20d1-407e-b6ea-5e11a54cfae5",
+            "created": "2022-07-02T19:47:42.499747Z",
+            "modified": "2022-07-02T19:47:42.499747Z",
+            "name": "Create Organizations",
+            "description": "Influence operations may establish organizations with legitimate or falsified hierarchies, staff, and content to structure operation assets, provide a sense of legitimacy to the operation, or provide institutional backing to operation activities.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0092.001.md",
+                    "external_id": "T0092.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0d0c6baf-9a9b-4314-8e04-bbf5e2767c89"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

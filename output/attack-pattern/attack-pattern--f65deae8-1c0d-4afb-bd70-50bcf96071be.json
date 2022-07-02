@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--eac49b12-ab06-4b4d-bfc4-349ae3eab800",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f65deae8-1c0d-4afb-bd70-50bcf96071be",
+            "created_by_ref": "identity--5d7e3614-f87c-4572-b7a4-2ee0707f9fe0",
+            "created": "2022-07-02T19:47:42.49655Z",
+            "modified": "2022-07-02T19:47:42.49655Z",
+            "name": "Create Inauthentic Accounts",
+            "description": "Inauthentic accounts include bot accounts, cyborg accounts, sockpuppet accounts, and anonymous accounts.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0090.md",
+                    "external_id": "T0090"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--4ea67bbb-bc5c-45bf-ad26-3a184778d665"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

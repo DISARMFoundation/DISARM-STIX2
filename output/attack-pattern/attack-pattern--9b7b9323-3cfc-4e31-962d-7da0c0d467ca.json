@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--335c582a-1349-452b-926f-9a12016ce1b8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9b7b9323-3cfc-4e31-962d-7da0c0d467ca",
+            "created_by_ref": "identity--da73772d-647b-4784-a489-1f3310fa4827",
+            "created": "2022-07-02T19:47:42.481133Z",
+            "modified": "2022-07-02T19:47:42.481133Z",
+            "name": "Determine Strategic Ends",
+            "description": "Determining the campaigns goals or objectives. Examples include achieving achieving geopolitical advantage like undermining trust in an adversary, gaining domestic political advantage, achieving financial gain, or attaining a policy change, ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-strategy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0074.md",
+                    "external_id": "T0074"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--121033f6-703d-45d3-8d05-c9e244347406"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

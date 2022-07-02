@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--92ad2b20-2a5e-4aea-9390-b71e52ff8895",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cb7daa89-6f78-4e22-b1ca-bdecc333f29a",
+            "created_by_ref": "identity--8cca8caf-f9bb-4f44-a444-42c84445dec7",
+            "created": "2022-07-02T19:47:42.459623Z",
+            "modified": "2022-07-02T19:47:42.459623Z",
+            "name": "Develop Competing Narratives",
+            "description": "Advance competing narratives connected to same issue ie: on one hand deny incident while at same time expresses dismiss. Suppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on. These competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the \"firehose of misinformation\" approach.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0004.md",
+                    "external_id": "T0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--59f65ea5-cdde-4cfc-a298-09b0276b5820"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

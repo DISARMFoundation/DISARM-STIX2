@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc73b317-d9f8-4176-995b-b663ba65945f",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--d1256044-f1c8-4fdf-a9bb-60e5ca0d266a",
+            "created_by_ref": "identity--6c9d7965-d00e-42a5-a69f-cd14e2577485",
+            "created": "2022-07-02T19:47:42.4577Z",
+            "modified": "2022-07-02T19:47:42.4577Z",
+            "name": "Establish Legitimacy",
+            "description": "Establish assets that create trust",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA16.md",
+                    "external_id": "TA16"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--397f9657-0246-4f1c-af6d-a907cc15c154"
+            ],
+            "x_mitre_shortname": "establish-legitimacy"
+        }
+    ]
+}

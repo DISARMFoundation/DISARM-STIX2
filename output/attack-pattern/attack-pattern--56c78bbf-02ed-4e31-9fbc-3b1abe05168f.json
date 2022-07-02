@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5326cb0e-97f7-49af-bbec-37b59fb8b9ff",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--56c78bbf-02ed-4e31-9fbc-3b1abe05168f",
+            "created_by_ref": "identity--7bb20748-a065-4fb9-bd80-42c6033122f1",
+            "created": "2022-07-02T19:47:42.519959Z",
+            "modified": "2022-07-02T19:47:42.519959Z",
+            "name": "Comment or Reply on Content",
+            "description": "Delivering content by replying or commenting via owned media (assets that the operator controls). ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "deliver-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0116.md",
+                    "external_id": "T0116"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d347d582-cbee-4e1b-8709-d64ffd1934ba"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

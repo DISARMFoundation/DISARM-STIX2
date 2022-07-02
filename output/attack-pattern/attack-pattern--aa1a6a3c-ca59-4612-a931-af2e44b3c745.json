@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--37dd3e22-5825-46a2-a42e-7a6a934fd318",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aa1a6a3c-ca59-4612-a931-af2e44b3c745",
+            "created_by_ref": "identity--cbfaf956-52d6-4308-a16e-64572418c5c7",
+            "created": "2022-07-02T19:47:42.530127Z",
+            "modified": "2022-07-02T19:47:42.530127Z",
+            "name": "Conceal Network Identity",
+            "description": "Concealing network identity aims to hide the existence an influence operation\u2019s network  completely. Unlike concealing sponsorship, concealing network identity denies the existence of  any sort of organization. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persist-in-the-information-environment"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0128.002.md",
+                    "external_id": "T0128.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2d783dbb-5543-40e3-a4db-bc607874a138"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

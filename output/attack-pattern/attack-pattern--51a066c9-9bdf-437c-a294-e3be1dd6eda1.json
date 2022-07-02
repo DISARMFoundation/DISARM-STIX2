@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e74e96e-889a-45ad-b45d-0742cd0257f1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--51a066c9-9bdf-437c-a294-e3be1dd6eda1",
+            "created_by_ref": "identity--9c4f664f-739e-4f5a-b25e-3cf86244bc41",
+            "created": "2022-07-02T19:47:42.509927Z",
+            "modified": "2022-07-02T19:47:42.509927Z",
+            "name": "Audio Livestream",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0103.002.md",
+                    "external_id": "T0103.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--de9e05db-42b9-40cd-9e35-4703e7744e72"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

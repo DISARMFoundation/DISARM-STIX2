@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--23dea4df-d4bb-4f14-bd26-13d0decaec70",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--93e12c18-a8e5-4b54-85df-a48803ff4418",
+            "created_by_ref": "identity--8f1e708d-cfff-4a96-a2d1-be3d87adf105",
+            "created": "2022-07-02T19:47:42.497836Z",
+            "modified": "2022-07-02T19:47:42.497836Z",
+            "name": "Create Sockpuppet Accounts",
+            "description": "Sockpuppet accounts refer to falsified accounts that either promote the influence operation\u2019s  own material or attack critics of the material online. Individuals who control sockpuppet  accounts also man at least one other user account.67 Sockpuppet accounts help legitimize  operation narratives by providing an appearance of external support for the material and  discrediting opponents of the operation. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0090.004.md",
+                    "external_id": "T0090.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--aedefc75-7cbb-4423-b030-f514b5947de7"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

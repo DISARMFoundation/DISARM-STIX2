@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4217c480-8bc4-46e7-b477-f9ffe22600b9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5d435e06-a390-4a55-b7b8-fad57be825c2",
+            "created_by_ref": "identity--616229a5-ea4c-4fdc-9cca-2bb7646529bd",
+            "created": "2022-07-02T19:47:42.493009Z",
+            "modified": "2022-07-02T19:47:42.493009Z",
+            "name": "Aggregate Information into Evidence Collages",
+            "description": "image files that aggregate positive evidence (Joan Donovan)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0086.004.md",
+                    "external_id": "T0086.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5e0c21e1-c84c-45f9-87b3-1ec508ebc7d3"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

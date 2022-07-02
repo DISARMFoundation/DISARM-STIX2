@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--51143df8-dcb3-44aa-b197-226be329eacf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--52a3f7dc-48a3-46dc-bbec-2ea7991b609e",
+            "created_by_ref": "identity--476b90aa-7d8a-4583-ae88-366747359706",
+            "created": "2022-07-02T19:47:42.515017Z",
+            "modified": "2022-07-02T19:47:42.515017Z",
+            "name": "Consumer Review Networks",
+            "description": "Platforms for finding, reviewing, and sharing information about brands, products, services, restaurants, travel destinations, etc.  Examples include Yelp, TripAdvisor, etc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0109.md",
+                    "external_id": "T0109"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--50f7d9a3-121c-4661-bd27-ce81948d58a2"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d21de99b-160e-4ef9-bb82-8858d0c9302b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1fc9d9e6-2089-4292-8e92-5292be5e6f60",
+            "created_by_ref": "identity--48db9643-68b5-4e82-8521-1d490c9997dc",
+            "created": "2022-07-02T19:47:42.46225Z",
+            "modified": "2022-07-02T19:47:42.46225Z",
+            "name": "From bad actors",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0014.001.md",
+                    "external_id": "T0014.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9d3c11c1-584a-45bc-b9e9-d62ff634657a"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

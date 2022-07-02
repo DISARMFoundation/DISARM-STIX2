@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9a819c84-bd2d-4855-b424-252f9cc1379e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9e529f43-7ba4-4e5b-b521-7a064ae5f027",
+            "created_by_ref": "identity--5cb09667-66b3-4d6f-b610-e7626e6bd9a5",
+            "created": "2022-07-02T19:47:42.527238Z",
+            "modified": "2022-07-02T19:47:42.527238Z",
+            "name": "Platform Filtering",
+            "description": "Platform filtering refers to the decontextualization of information as claims cross platforms (from Joan Donovan https://www.hks.harvard.edu/publications/disinformation-design-use-evidence-collages-and-platform-filtering-media-manipulation)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0125.md",
+                    "external_id": "T0125"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--62958c82-d38a-4753-a0ba-69a99a438909"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ebd866f-a221-4415-b0ef-b0f6bfacd616",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dd7ef8f1-8c15-41e4-bdb8-012c49b362bc",
+            "created_by_ref": "identity--2d860cdf-eb01-4089-aa85-fa606edaf0dd",
+            "created": "2022-07-02T19:47:42.467499Z",
+            "modified": "2022-07-02T19:47:42.467499Z",
+            "name": "Edit Open-Source Content",
+            "description": "An influence operation may edit open-source content, such as collaborative blogs or  encyclopedias, to promote its narratives on outlets with existing credibility and audiences. Editing open-source content may allow an operation to post content on platforms without  dedicating resources to the creation and maintenance of its own assets. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0023.002.md",
+                    "external_id": "T0023.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--ecaa9591-8ea6-476e-9873-6c2dd0bef2ab"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

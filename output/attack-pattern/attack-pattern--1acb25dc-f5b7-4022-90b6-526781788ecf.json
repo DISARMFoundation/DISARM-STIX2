@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4f36ba73-efcc-48e0-a557-f8c958bfb17f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1acb25dc-f5b7-4022-90b6-526781788ecf",
+            "created_by_ref": "identity--5d75b426-aa5b-43ac-8b65-69a53a1a34e7",
+            "created": "2022-07-02T19:47:42.471431Z",
+            "modified": "2022-07-02T19:47:42.471431Z",
+            "name": "Harass",
+            "description": "Threatening or harassing believers of opposing narratives refers to the use of intimidation  techniques, including cyberbullying and doxing, to discourage opponents from voicing their  dissent. An influence operation may threaten or harass believers of the opposing narratives to  deter individuals from posting or proliferating conflicting content.  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0048.md",
+                    "external_id": "T0048"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--98da3024-fc98-4880-a0ec-08bb3b2f23d1"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

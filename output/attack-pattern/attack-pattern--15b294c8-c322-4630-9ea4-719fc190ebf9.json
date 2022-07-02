@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3e0bae7-3064-4648-9a66-8c7a8c23b70e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--15b294c8-c322-4630-9ea4-719fc190ebf9",
+            "created_by_ref": "identity--c0725fd2-ac78-4f55-81c8-9eea049bc146",
+            "created": "2022-07-02T19:47:42.463881Z",
+            "modified": "2022-07-02T19:47:42.463881Z",
+            "name": "Conduct Crowdfunding Campaigns",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-offline-activity"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0017.001.md",
+                    "external_id": "T0017.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--13b35ccf-d225-4692-a5d6-dc644032b818"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

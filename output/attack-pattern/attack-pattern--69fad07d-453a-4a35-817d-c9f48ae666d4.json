@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--df56a56c-fdc0-4632-9beb-812490379cf0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--69fad07d-453a-4a35-817d-c9f48ae666d4",
+            "created_by_ref": "identity--f2baed9a-39a3-4bef-aab0-fb6ad365a67b",
+            "created": "2022-07-02T19:47:42.486919Z",
+            "modified": "2022-07-02T19:47:42.486919Z",
+            "name": "Identify Existing Conspiracy Narratives/Suspicions",
+            "description": "An influence operation may assess preexisting conspiracy theories or suspicions in a population  to identify existing narratives that support operational objectives.  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0081.005.md",
+                    "external_id": "T0081.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--40711650-ccc3-48a5-9d24-e85290dc0c95"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--58bb8f05-a24b-49f4-95a7-5a80eb41034f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f8c6b2b7-9195-4543-ae07-470af321bcdf",
+            "created_by_ref": "identity--4d680f7f-67dd-4a36-8a9a-9825cc3cc86c",
+            "created": "2022-07-02T19:47:42.47761Z",
+            "modified": "2022-07-02T19:47:42.47761Z",
+            "name": "Sell Merchandise",
+            "description": "Selling merchandise refers to the sale of often branded items to the target audience. An influence  operation may sell merchandise to raise funds and promote its messaging in the physical  information space, for example, by selling t-shirts with operational messaging displayed on the clothing. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-offline-activity"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0061.001.md",
+                    "external_id": "T0061.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e08ce73d-dafb-4179-a6fc-0128150574f2"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

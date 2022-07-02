@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe1b6fab-7aa9-4fae-8571-5fde1bed1746",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--76088dfc-a4b4-46cf-b34e-f16cf15b6aff",
+            "created_by_ref": "identity--6975b875-3682-4374-85e6-2e0a1fa5a2aa",
+            "created": "2022-07-02T19:47:42.507389Z",
+            "modified": "2022-07-02T19:47:42.507389Z",
+            "name": "Co-opt Influencers",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0100.003.md",
+                    "external_id": "T0100.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8d964457-4610-4c8e-9d69-19e732fd3f75"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

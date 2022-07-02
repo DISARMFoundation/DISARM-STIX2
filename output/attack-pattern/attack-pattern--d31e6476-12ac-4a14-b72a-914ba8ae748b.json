@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f4cb55f-7f83-4a4f-9a12-f59effd94f73",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d31e6476-12ac-4a14-b72a-914ba8ae748b",
+            "created_by_ref": "identity--a138f5a3-1317-482c-b144-0a4aa7e1bb9a",
+            "created": "2022-07-02T19:47:42.51691Z",
+            "modified": "2022-07-02T19:47:42.51691Z",
+            "name": "Email",
+            "description": "Delivering content and narratives via email. This can include using list management or high-value individually targeted messaging.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0112.md",
+                    "external_id": "T0112"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1a25658c-68d5-46b3-bad3-fa52df019b77"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

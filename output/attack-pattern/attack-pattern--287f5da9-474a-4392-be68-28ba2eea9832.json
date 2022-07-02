@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7b2c3688-404b-48ff-9048-be682d9829b8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--287f5da9-474a-4392-be68-28ba2eea9832",
+            "created_by_ref": "identity--9257433f-5499-4332-9947-6b1487e1d95a",
+            "created": "2022-07-02T19:47:42.490773Z",
+            "modified": "2022-07-02T19:47:42.490773Z",
+            "name": "Develop AI-Generated Text",
+            "description": "AI-generated texts refers to synthetic text composed by computers using text-generating AI  technology. Autonomous generation refers to content created by a bot without human  input, also known as bot-created content generation. Autonomous generation represents  the next step in automation after language generation and may lead to automated  journalism. An influence operation may use read fakes or autonomous generation to  quickly develop and distribute content to the target audience.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0085.001.md",
+                    "external_id": "T0085.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--a503edad-a7a1-4dbe-b8de-52b1b2f681fa"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

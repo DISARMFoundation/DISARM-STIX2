@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--09e079a7-bd7c-4d49-bfe1-03726c3776a7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a3ee3425-6c1e-454d-bb9a-6b38a3a56e15",
+            "created_by_ref": "identity--3e60cf04-d438-4947-914d-ce9903ccbddf",
+            "created": "2022-07-02T19:47:42.524722Z",
+            "modified": "2022-07-02T19:47:42.524722Z",
+            "name": "Delete Opposing Content",
+            "description": "Deleting opposing content refers to the removal of content that conflicts with operational  narratives from selected platforms. An influence operation may delete opposing content to  censor contradictory information from the target audience, allowing operation narratives to take  priority in the information space.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0123.001.md",
+                    "external_id": "T0123.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--64f3aef0-c2c5-4598-a730-73b8d0f86f9d"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

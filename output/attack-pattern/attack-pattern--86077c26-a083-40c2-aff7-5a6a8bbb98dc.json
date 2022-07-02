@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8793bb52-b781-45e9-acc8-7c4ee176d33b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--86077c26-a083-40c2-aff7-5a6a8bbb98dc",
+            "created_by_ref": "identity--b9c28808-88d3-4c28-83d3-37f17bdb69b0",
+            "created": "2022-07-02T19:47:42.478576Z",
+            "modified": "2022-07-02T19:47:42.478576Z",
+            "name": "Respond to Breaking News Event or Active Crisis",
+            "description": "Media attention on a story or event is heightened during a breaking news event, where unclear facts and incomplete information increase speculation, rumors, and conspiracy theories, which are all vulnerable to manipulation. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0068.md",
+                    "external_id": "T0068"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3b58111d-ab5a-4cc1-8642-1179e7039c0d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

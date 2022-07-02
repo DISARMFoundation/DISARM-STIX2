@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--676a703a-e472-471f-8273-46036bad18d1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8b7c89be-2722-4275-bfc6-590e73680793",
+            "created_by_ref": "identity--a8031510-6cd4-4ba6-83ee-95e73e4da3b0",
+            "created": "2022-07-02T19:47:42.538064Z",
+            "modified": "2022-07-02T19:47:42.538064Z",
+            "name": "People Focused",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0132.001.md",
+                    "external_id": "T0132.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b9545053-0ba1-465d-a53d-39e7f62549ea"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

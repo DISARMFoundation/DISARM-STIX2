@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc51c891-cf8f-4aaf-a8c4-1fe6ebea4af7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8a152900-4f72-4cea-aba2-c817e803f37d",
+            "created_by_ref": "identity--8ff556a6-4e44-4dbc-9127-43644446b989",
+            "created": "2022-07-02T19:47:42.501346Z",
+            "modified": "2022-07-02T19:47:42.501346Z",
+            "name": "Botnets",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0093.002.md",
+                    "external_id": "T0093.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e181980f-1204-4662-93f4-d22c9ca02696"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

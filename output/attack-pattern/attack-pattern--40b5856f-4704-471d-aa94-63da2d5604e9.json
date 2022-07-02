@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f837a9b-5c93-4210-9b34-193ba4d3372b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--40b5856f-4704-471d-aa94-63da2d5604e9",
+            "created_by_ref": "identity--e9d582f4-75d1-4ac9-bb0a-a139708909f2",
+            "created": "2022-07-02T19:47:42.487233Z",
+            "modified": "2022-07-02T19:47:42.487233Z",
+            "name": "Identify Wedge Issues",
+            "description": "A wedge issue is a divisive political issue, usually concerning a social phenomenon, that  divides individuals along a defined line. An influence operation may exploit wedge issues by  intentionally polarizing the public along the wedge issue line and encouraging opposition  between factions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0081.006.md",
+                    "external_id": "T0081.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--b50205ca-fcbe-4e2e-a378-845a298653f6"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

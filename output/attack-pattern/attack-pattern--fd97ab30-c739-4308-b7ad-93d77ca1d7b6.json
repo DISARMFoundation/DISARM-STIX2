@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9017dcb7-71f9-41e0-99a2-df22655434ba",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fd97ab30-c739-4308-b7ad-93d77ca1d7b6",
+            "created_by_ref": "identity--8ada72c2-b196-4c07-9157-4b7092279687",
+            "created": "2022-07-02T19:47:42.532973Z",
+            "modified": "2022-07-02T19:47:42.532973Z",
+            "name": "Coordinate on encrypted/ closed networks",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persist-in-the-information-environment"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0129.005.md",
+                    "external_id": "T0129.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fb04767c-8b15-43dd-895e-d053b61ef17a"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

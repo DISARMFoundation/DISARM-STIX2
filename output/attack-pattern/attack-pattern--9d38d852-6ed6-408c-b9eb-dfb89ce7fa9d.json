@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--66bed5a3-77be-49c3-95c4-19d4dae5afd4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9d38d852-6ed6-408c-b9eb-dfb89ce7fa9d",
+            "created_by_ref": "identity--54c56d4b-707b-4284-8f0c-a8c065709dcd",
+            "created": "2022-07-02T19:47:42.471107Z",
+            "modified": "2022-07-02T19:47:42.471107Z",
+            "name": "Censor social media as a political force",
+            "description": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0047.md",
+                    "external_id": "T0047"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--bfba5232-36b6-456a-925b-9beb6f253bb0"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

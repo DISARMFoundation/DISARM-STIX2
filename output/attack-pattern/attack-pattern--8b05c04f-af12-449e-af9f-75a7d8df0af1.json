@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fe2c467-78d2-4a8e-9086-108d310a4e70",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8b05c04f-af12-449e-af9f-75a7d8df0af1",
+            "created_by_ref": "identity--52b907d8-7dc5-4edc-80d3-f1d1e6620dd5",
+            "created": "2022-07-02T19:47:42.539333Z",
+            "modified": "2022-07-02T19:47:42.539333Z",
+            "name": "Behavior changes",
+            "description": "Monitor and evaluate behaviour changes from misinformation incidents. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0133.001.md",
+                    "external_id": "T0133.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--88ed23b4-d84b-4255-a0e5-d3d2e7a899fa"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f6f9c8ed-7455-4a89-8edc-725d5775db3f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b86fbb2a-e7c7-481c-bc98-9c7fba2fc22c",
+            "created_by_ref": "identity--ded9a5bf-9fa1-4118-98c1-1d540c0f21aa",
+            "created": "2022-07-02T19:47:42.465844Z",
+            "modified": "2022-07-02T19:47:42.465844Z",
+            "name": "Leverage Conspiracy Theory Narratives",
+            "description": "\"Conspiracy narratives\" appeal to the human desire for explanatory order, by invoking the participation of poweful (often sinister) actors in pursuit of their own political goals. These narratives are especially appealing when an audience is low-information, marginalized or otherwise inclined to reject the prevailing explanation. Conspiracy narratives are an important component of the \"firehose of falsehoods\" model. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0022.md",
+                    "external_id": "T0022"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--276cff07-7389-4ed7-9b99-c3135065ad4b"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

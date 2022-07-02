@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--206f0716-1645-4cde-a26b-cabfd6b01ed6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--910e584b-57cc-4f4e-8266-608a662fab9b",
+            "created_by_ref": "identity--f00aba3c-36f7-4761-ae9c-2d0405d75325",
+            "created": "2022-07-02T19:47:42.528856Z",
+            "modified": "2022-07-02T19:47:42.528856Z",
+            "name": "Conduct Physical Violence",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-offline-activity"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0127.001.md",
+                    "external_id": "T0127.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--7282034e-c499-4816-a2ff-2769531824f6"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

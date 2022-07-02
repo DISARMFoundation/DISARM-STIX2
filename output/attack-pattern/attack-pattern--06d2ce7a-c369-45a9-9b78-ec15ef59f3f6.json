@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0b1161ac-8d6c-4b7c-975d-49930f921c50",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--06d2ce7a-c369-45a9-9b78-ec15ef59f3f6",
+            "created_by_ref": "identity--bf2d3c2f-c98b-41be-9113-4060c6afb4e8",
+            "created": "2022-07-02T19:47:42.525351Z",
+            "modified": "2022-07-02T19:47:42.525351Z",
+            "name": "Destroy Information Generation Capabilities",
+            "description": "Destroying information generation capabilities refers to actions taken to limit, degrade, or  otherwise incapacitate an actor\u2019s ability to generate conflicting information. An influence operation may destroy an actor\u2019s information generation capabilities by physically dismantling  the information infrastructure, disconnecting resources needed for information generation, or  redirecting information generation personnel. An operation may destroy an adversary\u2019s  information generation capabilities to limit conflicting content exposure to the target audience  and crowd the information space with its own narratives. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0123.003.md",
+                    "external_id": "T0123.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--611f09ad-d6b1-4a8b-9b58-64c908a013a7"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

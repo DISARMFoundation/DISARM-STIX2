@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cda535a4-7ae5-4d93-af12-a2ccecbe7e72",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2fb3f6d7-9fe6-4942-b101-0305369ef21a",
+            "created_by_ref": "identity--bef1e308-6e6f-4508-aa75-9c1e125be3ec",
+            "created": "2022-07-02T19:47:42.498161Z",
+            "modified": "2022-07-02T19:47:42.498161Z",
+            "name": "Recruit bad actors",
+            "description": "Operators recruit bad actors paying recruiting, or exerting control over individuals includes trolls, partisans, and contractors.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0091.md",
+                    "external_id": "T0091"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--55e5934e-0147-47ba-a756-14351df2ac8c"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

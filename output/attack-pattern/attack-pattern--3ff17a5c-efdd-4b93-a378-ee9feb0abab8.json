@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--68eeffb3-1ff8-4cd0-9512-e500a18808ad",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3ff17a5c-efdd-4b93-a378-ee9feb0abab8",
+            "created_by_ref": "identity--7899f082-686b-424e-b2ae-5038bcec8b32",
+            "created": "2022-07-02T19:47:42.503595Z",
+            "modified": "2022-07-02T19:47:42.503595Z",
+            "name": "Outsource Content Creation to External Organizations",
+            "description": "An influence operation may outsource content creation to external companies to avoid  attribution, increase the rate of content creation, or improve content quality, i.e., by employing an organization that can create content in the target audience\u2019s native language. Employed  organizations may include marketing companies for tailored advertisements or external content  farms for high volumes of targeted media.  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0096.002.md",
+                    "external_id": "T0096.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--1525dcd1-2fc7-44fe-80a8-cf224ed10349"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

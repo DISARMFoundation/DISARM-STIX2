@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--21957743-fc06-4a3d-a313-1f0ca6360cec",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5e6be763-57e5-4645-a68a-ac05c99ba6b0",
+            "created_by_ref": "identity--aa27af59-e418-4ee6-9b12-600e58bc804d",
+            "created": "2022-07-02T19:47:42.472398Z",
+            "modified": "2022-07-02T19:47:42.472398Z",
+            "name": "Threaten to Dox",
+            "description": "Doxing refers to online harassment in which individuals publicly release private information  about another individual, including names, addresses, employment information, pictures, family  members, and other sensitive information. An influence operation may dox its opposition to  encourage individuals aligned with operation narratives to harass the doxed individuals  themselves or otherwise discourage the doxed individuals from posting or proliferating  conflicting content. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0048.003.md",
+                    "external_id": "T0048.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--4f8a0aa9-d816-42dc-abd3-00a658fd493e"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

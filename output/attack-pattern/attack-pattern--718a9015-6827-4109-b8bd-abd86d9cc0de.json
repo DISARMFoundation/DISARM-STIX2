@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--dd0895d1-5a40-4ab5-ad33-420923440bee",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--718a9015-6827-4109-b8bd-abd86d9cc0de",
+            "created_by_ref": "identity--6a207ccc-225d-47f5-b185-0042bb25ce38",
+            "created": "2022-07-02T19:47:42.482737Z",
+            "modified": "2022-07-02T19:47:42.482737Z",
+            "name": "Dismay",
+            "description": "Threaten the critic or narrator of events. For instance, threaten journalists or news outlets reporting on a story.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0078.md",
+                    "external_id": "T0078"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d57079cb-4fcd-4aff-903e-519e993c842e"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

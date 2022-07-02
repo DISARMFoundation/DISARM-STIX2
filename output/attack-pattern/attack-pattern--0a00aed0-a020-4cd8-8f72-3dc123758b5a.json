@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--250c8cf3-bda7-4668-97bd-122c5f18ce9e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0a00aed0-a020-4cd8-8f72-3dc123758b5a",
+            "created_by_ref": "identity--db8d0404-aa7a-465c-87af-fb1907810247",
+            "created": "2022-07-02T19:47:42.523774Z",
+            "modified": "2022-07-02T19:47:42.523774Z",
+            "name": "Bypass Content Blocking",
+            "description": "Bypassing content blocking refers to actions taken to circumvent network security measures that  prevent users from accessing certain servers, resources, or other online spheres. An influence  operation may bypass content blocking to proliferate its content on restricted areas of the  internet. Common strategies for bypassing content blocking include:\n- Altering IP addresses to avoid IP filtering  \n- Using a Virtual Private Network (VPN) to avoid IP filtering \n- Using a Content Delivery Network (CDN) to avoid IP filtering \n- Enabling encryption to bypass packet inspection blocking \n- Manipulating text to avoid filtering by keywords \n- Posting content on multiple platforms to avoid platform-specific removals - Using local facilities or modified DNS servers to avoid DNS filtering ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximize-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0121.001.md",
+                    "external_id": "T0121.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--ef8805c4-34b7-4ed5-928b-c371f3106de9"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

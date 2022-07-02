@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d6e7dd9-cad2-4f35-b62f-01e278cb05e0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9222397c-d166-4e8a-9f52-7f535b3f718e",
+            "created_by_ref": "identity--e4425dda-fda5-4177-ac73-05617f035702",
+            "created": "2022-07-02T19:47:42.512804Z",
+            "modified": "2022-07-02T19:47:42.512804Z",
+            "name": "Photo Sharing",
+            "description": "Examples include Instagram, Snapchat, Flickr, etc",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0105.001.md",
+                    "external_id": "T0105.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--ef476bdf-e61f-4eac-bb08-2f640f0ae43a"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--754cdc84-f577-4b0c-a161-24a1cf3e663a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6775c161-db3e-4743-b2f0-04d2605a635e",
+            "created_by_ref": "identity--b83bc3b9-f51a-4c48-b9fd-3f423fbf4997",
+            "created": "2022-07-02T19:47:42.538378Z",
+            "modified": "2022-07-02T19:47:42.538378Z",
+            "name": "Content Focused",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0132.002.md",
+                    "external_id": "T0132.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--0c77e38b-e760-4ab4-9b28-566ae4bc4587"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}
