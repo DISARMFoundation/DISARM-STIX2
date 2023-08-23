@@ -45,3 +45,6 @@ DISARM `AttackPattern` objects also contain `x_mitre_is_subtechnique` and `x_mit
 DISARM STIX can be imported into OpenCTI via the OpenCTI STIX Importer plugin which is installed in OpenCTI by default.
 Alternatively, use the OpenCTI DISARM plugin to continuously pull the latest DISARM STIX.
 
+## License
+
+[Apache 2.0](/LICENSE).
