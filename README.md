@@ -1,12 +1,26 @@
 # DISARM STIX2 Generator
 
-## Usage
+## Install
 
-1. Clone this repository.
-2. Download the latest version of the DISARM Framework xlsx [here](https://github.com/DISARMFoundation/DISARMframeworks).
-3. Copy the xlsx to the root directory of this repository.
-4. Run `python3 main.py` to generate STIX objects in the `output/` folder.
-5. `output/DISARM.json` contains the complete STIX bundle.  The folders in `output/` contain individual objects for reference.
+```shell
+# get code
+git clone https://github.com/DISARMFoundation/DISARM-STIX2
+cd DISARM-STIX2
+# create venv
+python3 -m venv DISARM-STIX2_venv
+source DISARM-STIX2_venv/bin/activate
+# install requirements
+pip3 install -r requirements.txt
+# download the latest version of the DISARM Framework xlsx
+curl https://raw.githubusercontent.com/DISARMFoundation/DISARMframeworks/main/DISARM_MASTER_DATA/DISARM_FRAMEWORKS_MASTER.xlsx > DISARM_FRAMEWORKS_MASTER.xlsx
+```
+
+## Run
+
+```shell
+# generate STIX objects in the output/ folder
+python3 main.py
+```
 
 ## DISARM STIX2
 

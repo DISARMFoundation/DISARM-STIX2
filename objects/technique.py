@@ -20,7 +20,7 @@ def make_disarm_techniques(data, identity_id, marking_id):
         external_references = [
             {
                 'external_id': f'{t[0]}'.strip(),
-                'source_name': 'mitre-attack',
+                'source_name': 'DISARM',
                 'url': f'https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/{t[0]}.md'
             }
         ]
@@ -28,7 +28,7 @@ def make_disarm_techniques(data, identity_id, marking_id):
         kill_chain_phases = [
             {
                 'phase_name': tacdict[t[3]].replace(' ', '-').lower(),
-                'kill_chain_name': 'mitre-attack'
+                'kill_chain_name': 'DISARM'
             }
         ]
 

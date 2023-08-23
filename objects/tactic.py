@@ -7,7 +7,7 @@ valid_tactics = ["plan-strategy", "plan-objectives", "microtarget", "develop-con
                  "select-channels-and-affordances", "conduct-pump-priming", "deliver-content",
                  "drive-offline-activity", "persist-in-the-information-environment", "assess-effectiveness",
                  "target-audience-analysis", "develop-narratives", "establish-social-assets", "establish-legitimacy",
-                 "maximize-exposure", "drive-online-harms"]
+                 "maximize-exposure", "drive-online-harms", "maximise-exposure"]
 
 @CustomObject('x-mitre-tactic', [
     ('name', properties.StringProperty(required=True)),

@@ -1,0 +1,20 @@
+# do not include the framework XLSX
+DISARM_FRAMEWORKS_MASTER.xlsx
+~$DISARM_FRAMEWORKS_MASTER.xlsx
+
+# only include stix bundle in repo
+output/attack-pattern
+output/identity
+output/marking-definition
+output/relationship
+output/x-mitre-matrix
+output/x-mitre-tactic
+
+# ignore venv described in the readme
+
+DISARM-STIX2_venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
