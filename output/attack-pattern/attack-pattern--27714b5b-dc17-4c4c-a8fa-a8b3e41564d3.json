@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--58c35b4b-62b5-44af-9ed2-40863eb19417",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--27714b5b-dc17-4c4c-a8fa-a8b3e41564d3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.241687Z",
+            "modified": "2025-03-11T12:54:45.241687Z",
+            "name": "Utilise Bulletproof Hosting",
+            "description": "Hosting refers to services through which storage and computing resources are provided to an individual or organisation for the accommodation and maintenance of one or more websites and related services. Services may include web hosting, file sharing, and email distribution. Bulletproof hosting refers to services provided by an entity, such as a domain hosting or web hosting firm, that allows its customer considerable leniency in use of the service. An influence operation may utilise bulletproof hosting to maintain continuity of service for suspicious, illegal, or disruptive operation activities that stricter hosting services would limit, report, or suspend.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persist-in-the-information-environment"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0130.002.md",
+                    "external_id": "T0130.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

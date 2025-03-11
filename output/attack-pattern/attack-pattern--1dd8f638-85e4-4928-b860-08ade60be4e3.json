@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7d77a0d-fb03-46e5-a995-2a63865c33fb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1dd8f638-85e4-4928-b860-08ade60be4e3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.253866Z",
+            "modified": "2025-03-11T12:54:45.253866Z",
+            "name": "Authentic Persona",
+            "description": "An individual or institution presenting a persona that legitimately matches who or what they are is presenting an authentic persona.<br><br> For example, an account which presents as being managed by a member of a country\u2019s military, and is legitimately managed by that person, would be presenting an authentic persona (T0143.001: Authentic Persona, T0097.105: Military Personnel).<br><br> Sometimes people can authentically present themselves as who they are while still participating in malicious/inauthentic activity; a legitimate journalist (T0143.001: Authentic Persona, T0097.102: Journalist Persona) may accept bribes to promote products, or they could be tricked by threat actors into sharing an operation\u2019s narrative.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0143.001.md",
+                    "external_id": "T0143.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

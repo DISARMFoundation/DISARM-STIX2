@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--edb9dbf6-bc53-42f8-9caf-63d499ddbc8b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1a71f5cb-b6ac-4548-af02-44440dd0ffc5",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.22078Z",
+            "modified": "2025-03-11T12:54:45.22078Z",
+            "name": "Hacktivist Persona",
+            "description": "A person with a hacktivist persona presents themselves as an activist who conducts offensive cyber operations or builds technical infrastructure for political purposes, rather than the financial motivations commonly attributed to hackers; hacktivists are hacker activists who use their technical knowledge to take political action.<br><br>Hacktivists can build technical infrastructure to support other activists, including secure communication channels and surveillance and censorship circumvention. They can also conduct DDOS attacks and other offensive cyber operations, aiming to take down digital assets or gain access to proprietary information. An influence operation may use hacktivist personas to support their operational narratives and legitimise their operational activities.<br><br>Fabricated Hacktivists are sometimes referred to as \u201cFaketivists\u201d.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.104.md",
+                    "external_id": "T0097.104"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

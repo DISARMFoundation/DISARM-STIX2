@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fbed038-73d4-4d06-af93-db234e43fa20",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6f062ad8-49d8-40e9-9fbe-2ad58452735f",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.208118Z",
+            "modified": "2025-03-11T12:54:45.208118Z",
+            "name": "Identify Existing Fissures",
+            "description": "An influence operation may identify existing fissures to pit target populations against one another or facilitate a \u201cdivide-and-conquer\" approach to tailor operation narratives along the divides.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0081.004.md",
+                    "external_id": "T0081.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

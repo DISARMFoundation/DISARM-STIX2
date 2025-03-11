@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3b81ee17-d826-4f3a-ba92-4f44f264fe7d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ed80b82d-414a-4911-8733-f66c3071e264",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.202262Z",
+            "modified": "2025-03-11T12:54:45.202262Z",
+            "name": "Demographic Segmentation",
+            "description": "An influence operation may target populations based on demographic segmentation, including age, gender, and income. Demographic segmentation may be useful for influence operations aiming to change state policies that affect a specific population sector. For example, an influence operation attempting to influence Medicare funding in the United States would likely target U.S. voters over 65 years of age.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0072.002.md",
+                    "external_id": "T0072.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--acb6bc8f-0ec0-4862-b03e-520a9f473d2b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fd7b0b17-1e87-4e93-89b7-d5a7eb179785",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.262286Z",
+            "modified": "2025-03-11T12:54:45.262286Z",
+            "name": "Domain Asset",
+            "description": "A Domain is a web address (such as \u201cgoogle[.]com\u201d), used to navigate to Websites on the internet.<br><br>Domains differ from Websites in that Websites are considered to be developed web pages which host content, whereas Domains do not necessarily host public-facing web content. <br><br>A threat actor may register a new domain to bypass the old domain being blocked.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.001.md",
+                    "external_id": "T0149.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

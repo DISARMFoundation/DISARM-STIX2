@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b57fecc4-f62d-4880-bfac-d5c51c493970",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bb4172d2-4685-40e0-a427-5029d75f2cba",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.255998Z",
+            "modified": "2025-03-11T12:54:45.255998Z",
+            "name": "Animal Account Imagery",
+            "description": "Animal used in account imagery.<br><br> An influence operation might flesh out its account by uploading a profile picture, increasing its perceived authenticity.<br><br> People sometimes legitimately use images of animals as their profile pictures (e.g. of their pets), and threat actors can mimic this behaviour to avoid the risk of detection associated with stealing or AI-generating profile pictures (see T0145.001: Copy Account Imagery and T0145.002: AI-Generated Account Imagery).<br><br> This Technique is often used by Coordinated Inauthentic Behaviour accounts (CIBs). A collection of accounts displaying the same behaviour using similar account imagery can indicate the presence of CIB.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0145.003.md",
+                    "external_id": "T0145.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

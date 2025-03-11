@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--44684382-467f-4a17-9b4b-468e4e3dad22",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--69ba263b-b0da-4fac-809c-2cb117747c86",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.197985Z",
+            "modified": "2025-03-11T12:54:45.197985Z",
+            "name": "Flood Information Space",
+            "description": "Flooding sources of information (e.g. Social Media feeds) with a high volume of inauthentic content.<br /> <br />This can be done to control/shape online conversations, drown out opposing points of view, or make it harder to find legitimate information.<br /> <br />Bots and/or patriotic trolls are effective tools to achieve this effect.<br /> <br />This Technique previously used the name Flooding the Information Space.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0049.md",
+                    "external_id": "T0049"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

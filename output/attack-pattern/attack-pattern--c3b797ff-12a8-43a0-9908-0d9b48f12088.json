@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f2a8e945-ba87-4526-b648-218ed358912c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c3b797ff-12a8-43a0-9908-0d9b48f12088",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.233894Z",
+            "modified": "2025-03-11T12:54:45.233894Z",
+            "name": "Direct Users to Alternative Platforms",
+            "description": "Direct users to alternative platforms refers to encouraging users to move from the platform on which they initially viewed operation content and engage with content on alternate information channels, including separate social media channels and inauthentic websites. An operation may drive users to alternative platforms to diversify its information channels and ensure the target audience knows where to access operation content if the initial platform suspends, flags, or otherwise removes original operation assets and content.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0122.md",
+                    "external_id": "T0122"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

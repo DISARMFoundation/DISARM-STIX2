@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4679ae30-dc98-4957-bf95-b59f15f8e38b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d26b4005-9d05-4a1b-894a-9faf4b0bddb2",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.244206Z",
+            "modified": "2025-03-11T12:54:45.244206Z",
+            "name": "Measure Effectiveness",
+            "description": "A metric used to measure a current system state. \u201cAre we on track to achieve the intended new system state within the planned timescale?\u201d",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0133.md",
+                    "external_id": "T0133"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

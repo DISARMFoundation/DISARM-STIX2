@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d02055c-2589-474e-814d-f7d857067d5f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ceabbfdf-6e8a-4000-b5b0-204a4b649614",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.248351Z",
+            "modified": "2025-03-11T12:54:45.248351Z",
+            "name": "Cultvate Support for Initiative",
+            "description": "Elevate or fortify the public backing for a policy, operation, or idea. Domestic and foreign actors can use artificial means to fabricate or amplify public support for a proposal or action.   ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0136.005.md",
+                    "external_id": "T0136.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

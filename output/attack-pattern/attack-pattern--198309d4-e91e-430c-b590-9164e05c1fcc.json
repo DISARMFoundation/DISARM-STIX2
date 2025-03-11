@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a671e1fc-a011-4449-9a6f-fe8a33caa8c8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--198309d4-e91e-430c-b590-9164e05c1fcc",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.245513Z",
+            "modified": "2025-03-11T12:54:45.245513Z",
+            "name": "Measure Effectiveness Indicators (or KPIs)",
+            "description": "Ensuring that Key Performance Indicators are identified and tracked, so that the performance and effectiveness of campaigns, and elements of campaigns, can be measured, during and after their execution.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0134.md",
+                    "external_id": "T0134"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

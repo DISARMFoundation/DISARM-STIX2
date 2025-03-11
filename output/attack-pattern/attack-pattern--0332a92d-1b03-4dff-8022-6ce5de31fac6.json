@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--775235e8-d332-4f22-a8c9-2e5f317018f0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0332a92d-1b03-4dff-8022-6ce5de31fac6",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.246196Z",
+            "modified": "2025-03-11T12:54:45.246196Z",
+            "name": "Undermine",
+            "description": "Weaken, debilitate, or subvert a target or their actions. An influence operation may be designed to disparage an opponent; sabotage an opponent\u2019s systems or processes; compromise an opponent\u2019s relationships or support system; impair an opponent\u2019s capability; or thwart an opponent\u2019s initiative.   ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0135.md",
+                    "external_id": "T0135"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

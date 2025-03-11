@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def load_excel_data(infile="DISARM_FRAMEWORKS_MASTER.xlsx"):
+def load_excel_data(infile="DISARM_FRAMEWORKS_MASTER.xlsx", only_sheets = None):
     """Load an xlsx document.
 
     Args:
@@ -12,8 +12,10 @@ def load_excel_data(infile="DISARM_FRAMEWORKS_MASTER.xlsx"):
 
     """
     sheets = {}
-    xlsx = pd.ExcelFile(infile)
+    xlsx = pd.ExcelFile(infile, engine='openpyxl')
     for sheetname in xlsx.sheet_names:
+        if only_sheets and sheetname not in only_sheets:
+            continue
         sheets[sheetname] = xlsx.parse(sheetname)
     return sheets
 

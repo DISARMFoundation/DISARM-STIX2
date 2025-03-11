@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--49d1dce1-30a3-4ece-8d4f-03df6ea312ed",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--96831166-c269-43c0-95cd-ef5d1a2d2efe",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.216285Z",
+            "modified": "2025-03-11T12:54:45.216285Z",
+            "name": "Enlist Troll Accounts",
+            "description": "An influence operation may hire trolls, or human operators of fake accounts that aim to provoke others by posting and amplifying content about controversial issues. Trolls can serve to discredit an influence operation\u2019s opposition or bring attention to the operation\u2019s cause through debate. Classic trolls refer to regular people who troll for personal reasons, such as attention-seeking or boredom. Classic trolls may advance operation narratives by coincidence but are not directly affiliated with any larger operation. Conversely, hybrid trolls act on behalf of another institution, such as a state or financial organisation, and post content with a specific ideological goal. Hybrid trolls may be highly advanced and institutionalised or less organised and work for a single individual.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0091.003.md",
+                    "external_id": "T0091.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

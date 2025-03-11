@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--07f6155a-fef9-4193-9a77-50ae6461d6fc",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--550b46c8-cca7-4053-b2db-b8ada73e8a18",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.252914Z",
+            "modified": "2025-03-11T12:54:45.252914Z",
+            "name": "Defame",
+            "description": "Attempt to damage the target\u2019s personal reputation by impugning their character. This can range from subtle attempts to misrepresent or insinuate, to obvious attempts to denigrate or disparage, to blatant attempts to malign or vilify. Slander applies to oral expression. Libel applies to written or pictorial material. Defamation is often carried out by online trolls. The sole aim here is to cause harm to the target. If the threat actor uses defamation as a means of undermining the target, then choose sub-technique \u201cSmear\u201d of technique \u201cUndermine\u201d instead.  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0140.001.md",
+                    "external_id": "T0140.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

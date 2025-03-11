@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--53ed46a9-572a-4cf1-bbde-67ca5a37731a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dfa7e30b-8c11-42fc-8f79-31d8a2630f99",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.272134Z",
+            "modified": "2025-03-11T12:54:45.272134Z",
+            "name": "Software Delivery Platform",
+            "description": "Apple\u2019s App Store, Google\u2019s Google Play Store, and Valve\u2019s Steam are examples of Software Delivery Platforms.<br><br>Software Delivery Platforms are designed to enable users to download programmes uploaded to the platform. Software can be purchased, or downloaded for free. <br><br>Some Software Delivery Platforms require users to have an Account before they can download software, and software they acquire becomes associated with the account (i.e. the account owns a licence to download the software). Some platforms don\u2019t require users to make accounts before downloading software.<br><br>Actors may create their own Software Delivery Platform on a Domain they own.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0152.009.md",
+                    "external_id": "T0152.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

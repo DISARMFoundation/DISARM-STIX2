@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b1c1ab1c-2591-467b-995b-5e41ef20d357",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1facd4f4-657e-4079-9f59-d28f53aa80db",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.26615Z",
+            "modified": "2025-03-11T12:54:45.26615Z",
+            "name": "Digital Community Hosting Asset",
+            "description": "A Digital Community Hosting Asset is an online asset which can be used by actors to provide spaces for users to interact with each other.<br><br>Sub-techniques categorised under Digital Community Hosting Assets can include Content Hosting and Content Delivery capabilities; however, their nominal primary purpose is to provide a space for community interaction.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.md",
+                    "external_id": "T0151"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

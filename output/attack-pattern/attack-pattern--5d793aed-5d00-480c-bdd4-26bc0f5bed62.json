@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c4d6c27-4f47-47c6-8be4-1f3a4ac3f4a4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5d793aed-5d00-480c-bdd4-26bc0f5bed62",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.262499Z",
+            "modified": "2025-03-11T12:54:45.262499Z",
+            "name": "Email Domain Asset",
+            "description": "An Email Domain is a Domain (such as \u201cmeta[.]com\u201d) which has the ability to send emails (e.g. from an @meta[.]com address). <br><br>Any Domain which has an MX (Mail Exchange) record and configured SMTP (Simple Mail Transfer Protocol) settings can send and receive emails, and is therefore an Email Domain. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.002.md",
+                    "external_id": "T0149.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

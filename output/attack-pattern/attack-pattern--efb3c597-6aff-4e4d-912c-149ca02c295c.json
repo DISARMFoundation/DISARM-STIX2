@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--faaf6033-b012-4210-bb0a-5c1d7ed7df6f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--efb3c597-6aff-4e4d-912c-149ca02c295c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.222827Z",
+            "modified": "2025-03-11T12:54:45.222827Z",
+            "name": "Institutional Persona",
+            "description": "This Technique can be used to indicate that an entity is presenting itself as an institution. If the organisation is presenting itself as having one of the personas listed below then these Techniques should be used instead, as they indicate both that the entity presented itself as an institution, and the type of persona they presented:<br><br> T0097.201: Local Institution Persona<br> T0097.202: News Outlet Persona<br> T0097.203: Fact Checking Organisation Persona<br> T0097.204: Think Tank Persona<br> T0097.205: Business Persona<br> T0097.206: Government Institution Persona<br> T0097.207: NGO Persona<br> T0097.208: Social Cause Persona",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.200.md",
+                    "external_id": "T0097.200"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

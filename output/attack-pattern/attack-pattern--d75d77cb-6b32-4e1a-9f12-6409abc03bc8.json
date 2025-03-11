@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ac58b739-7a06-4a3b-ac2f-d1abe1775296",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d75d77cb-6b32-4e1a-9f12-6409abc03bc8",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.270216Z",
+            "modified": "2025-03-11T12:54:45.270216Z",
+            "name": "Digital Content Hosting Asset",
+            "description": "Digital Content Hosting Assets are online assets which are primarily designed to allow actors to upload content to the internet. <br><br>Sub-techniques categorised under Digital Content Hosting Assets can include Community Hosting and Content Delivery capabilities; however their nominal primary purpose is to host content online.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0152.md",
+                    "external_id": "T0152"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

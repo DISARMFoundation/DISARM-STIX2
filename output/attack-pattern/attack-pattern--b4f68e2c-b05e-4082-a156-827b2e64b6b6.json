@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ac75a6b-9508-4919-8587-3ec5f7354f00",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b4f68e2c-b05e-4082-a156-827b2e64b6b6",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.235761Z",
+            "modified": "2025-03-11T12:54:45.235761Z",
+            "name": "Goad People into Harmful Action (Stop Hitting Yourself)",
+            "description": "Goad people into actions that violate terms of service or will lead to having their content or accounts taken down.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0124.002.md",
+                    "external_id": "T0124.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

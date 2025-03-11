@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a58f36d-4045-47a3-b28b-19e2b72bb60b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--141874ec-6365-4ca5-9874-b90f22aa04f2",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.251466Z",
+            "modified": "2025-03-11T12:54:45.251466Z",
+            "name": "Compel",
+            "description": "Force target to take an action or to stop taking an action it has already started. Actors can use the threat of reputational damage alongside military or economic threats to compel a target.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0138.003.md",
+                    "external_id": "T0138.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

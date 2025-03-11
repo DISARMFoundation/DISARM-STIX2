@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--65a8078b-58f4-4334-a8f6-8e52c74e8ec8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2dd17e88-2a73-41a0-b7d6-5568731fa2bb",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.254294Z",
+            "modified": "2025-03-11T12:54:45.254294Z",
+            "name": "Impersonated Persona",
+            "description": "Threat actors may impersonate existing individuals or institutions to conceal their network identity, add legitimacy to content, or harm the impersonated target\u2019s reputation. This Technique covers situations where an actor presents themselves as another existing individual or institution.<br><br> This Technique was previously called Prepare Assets Impersonating Legitimate Entities and used the ID T0099.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0143.003.md",
+                    "external_id": "T0143.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

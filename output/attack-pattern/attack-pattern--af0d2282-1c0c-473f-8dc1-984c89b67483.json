@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--84299e74-2859-4370-830a-1c7ec0d34ded",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--af0d2282-1c0c-473f-8dc1-984c89b67483",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.276919Z",
+            "modified": "2025-03-11T12:54:45.276919Z",
+            "name": "Encrypted Communication Channel",
+            "description": "Some online platforms support encrypted communication between platform users, for example the Chat Platforms Telegram and Signal.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0155.007.md",
+                    "external_id": "T0155.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e518f6de-015f-457e-bfd8-8f9cf2dde757",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bed2860b-5190-4d19-a827-4161b573f8dd",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.25751Z",
+            "modified": "2025-03-11T12:54:45.25751Z",
+            "name": "Paid Account Asset",
+            "description": "Some online platforms afford accounts extra features, or other benefits, if the user pays a fee. For example, as of September 2024, content posted by a Paid Account on X (previously Twitter) is prioritised in the platform\u2019s algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0146.002.md",
+                    "external_id": "T0146.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

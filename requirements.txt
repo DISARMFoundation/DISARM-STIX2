@@ -1,3 +1,2 @@
-pandas
-openpyxl
-stix2
+pandas==2.2.3
+stix2==3.0.1

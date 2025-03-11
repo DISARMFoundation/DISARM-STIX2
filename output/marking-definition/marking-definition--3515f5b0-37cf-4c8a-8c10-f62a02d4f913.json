@@ -1,0 +1,18 @@
+{
+    "type": "bundle",
+    "id": "bundle--95924f69-efcf-4009-be20-fd239df6aaa7",
+    "objects": [
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.186596Z",
+            "definition_type": "statement",
+            "name": "DISARM Foundation",
+            "definition": {
+                "statement": "CC-BY-SA-4.0 DISARM Foundation"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9fe854db-4423-48ea-84a3-ac23d40135aa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ba9a8f9c-7c8c-4d3f-9f46-f1a2b8e8ba7d",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.200338Z",
+            "modified": "2025-03-11T12:54:45.200338Z",
+            "name": "Conduct Symbolic Action",
+            "description": "Symbolic action refers to activities specifically intended to advance an operation\u2019s narrative by signalling something to the audience, for example, a military parade supporting a state\u2019s narrative of military superiority. An influence operation may use symbolic action to create falsified evidence supporting operation narratives in the physical information space.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-offline-activity"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0057.002.md",
+                    "external_id": "T0057.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

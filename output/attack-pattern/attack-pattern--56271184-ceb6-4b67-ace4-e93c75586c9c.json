@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc2ec948-32e5-43d2-a816-5c659a502f8d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--56271184-ceb6-4b67-ace4-e93c75586c9c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.261638Z",
+            "modified": "2025-03-11T12:54:45.261638Z",
+            "name": "Cryptocurrency Exchange Platform",
+            "description": "Coinbase and Kraken are examples of Cryptocurrency Exchange Platforms.<br><br>Cryptocurrency Exchange Platforms provide users a digital marketplace where they can buy, sell, and trade cryptocurrencies, such as Bitcoin or Ethereum. <br><br>Some Cryptocurrency Exchange Platforms allow users to create a Cryptocurrency Wallet.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0148.008.md",
+                    "external_id": "T0148.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

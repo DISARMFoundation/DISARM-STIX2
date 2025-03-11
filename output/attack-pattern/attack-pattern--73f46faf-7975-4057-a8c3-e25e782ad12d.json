@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--00573cd3-8ceb-48fb-a7d7-3feba8cf794b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--73f46faf-7975-4057-a8c3-e25e782ad12d",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.273483Z",
+            "modified": "2025-03-11T12:54:45.273483Z",
+            "name": "Link Shortening Platform",
+            "description": "Bitly and TinyURL are examples of Link Shortening Platforms.<br><br>Link Shortening Platforms are online platforms which allow people to create Accounts that they can use to convert existing URLs into Shortened Links, or into QR Codes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0153.002.md",
+                    "external_id": "T0153.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

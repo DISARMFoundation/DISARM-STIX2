@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3ad038a-2145-448e-b5ca-75c90ec503e4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--262225ea-4a9b-4d4b-a363-b724af703a2f",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.276284Z",
+            "modified": "2025-03-11T12:54:45.276284Z",
+            "name": "Geoblocked Asset",
+            "description": "A Geoblocked Asset is an online asset which cannot be accessed in specific geographical locations.<br><br>Assets can be Geoblocked by choice of the platform, or can have Geoblocking mandated by regulators, and enforced through Internet Service Providers.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0155.004.md",
+                    "external_id": "T0155.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

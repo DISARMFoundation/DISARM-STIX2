@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6c035eb-3436-46b8-a37c-6af6b50ae3e8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--352bdeba-c9c6-43de-86a0-7fd4918b52fe",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.224332Z",
+            "modified": "2025-03-11T12:54:45.224332Z",
+            "name": "NGO Persona",
+            "description": "Institutions which present themselves as an NGO (Non-Governmental Organisation), an organisation which provides services or advocates for public policy (while not being directly affiliated with any government), are presenting an NGO persona.<br><br> While presenting as an NGO is not an indication of inauthentic behaviour, NGO personas are commonly used by threat actors (such as intelligence services) as a front for their operational activity (T0143.002: Fabricated Persona, T0097.207: NGO Persona). They are created to give legitimacy to the influence operation and potentially infiltrate grassroots movements<br><br> Legitimate NGOs could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.207: NGO Persona). For example, an NGO could take money for using their position to provide legitimacy to a false narrative, or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.207.md",
+                    "external_id": "T0097.207"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

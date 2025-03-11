@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--33ddd6e5-a412-4e55-a6eb-2918c7ee5b1c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3e9101bc-aa65-41fb-961d-5d857175af54",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.205323Z",
+            "modified": "2025-03-11T12:54:45.205323Z",
+            "name": "Distract",
+            "description": "Shift attention to a different narrative or actor, for instance by accusing critics of the same activity that they\u2019ve accused you of (e.g. police brutality).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0077.md",
+                    "external_id": "T0077"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

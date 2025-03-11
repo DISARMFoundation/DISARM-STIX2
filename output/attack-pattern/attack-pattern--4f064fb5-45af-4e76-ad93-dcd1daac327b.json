@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e808ba4f-7296-484d-b2fd-040aeda00ee6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4f064fb5-45af-4e76-ad93-dcd1daac327b",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.248778Z",
+            "modified": "2025-03-11T12:54:45.248778Z",
+            "name": "Recruit Members",
+            "description": "Motivate followers to join or subscribe as members of the team. Organisations may mount recruitment drives that use propaganda to entice sympathisers to sign up.   ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0136.007.md",
+                    "external_id": "T0136.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

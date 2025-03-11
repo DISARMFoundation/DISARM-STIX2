@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f50bc89-b306-4c96-b0b3-f9cba570b9ef",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--668165fc-b7e0-40b1-b582-3eac160ba6b3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.268744Z",
+            "modified": "2025-03-11T12:54:45.268744Z",
+            "name": "Image Board Platform",
+            "description": "4chan and 8chan are examples of Image Board Platforms.<br><br>Image Board Platforms provide individual boards on which users can start threads related to the board\u2019s topic. For example, 4chan\u2019s /pol/ board provides a space for users to talk about politics. <br><br>Most Image Board Platforms allow users to post without creating an account. Posts are typically made anonymously, although users can choose to post under a pseudonym.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.012.md",
+                    "external_id": "T0151.012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

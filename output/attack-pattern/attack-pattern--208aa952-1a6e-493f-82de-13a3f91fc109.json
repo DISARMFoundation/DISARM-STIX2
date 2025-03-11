@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c2153ce-7c77-49e5-a20a-b4f49ef3ff89",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--208aa952-1a6e-493f-82de-13a3f91fc109",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.268102Z",
+            "modified": "2025-03-11T12:54:45.268102Z",
+            "name": "Legacy Online Forum Platform",
+            "description": "Examples of Legacy Online Forum Platforms include Something Awful (SA Forums), Ars Technica forums, and NeoGAF, and the forums available on the Mumsnet and War Thunder websites.<br><br>Legacy Online Forum Platforms are a type of message board (using software such as vBulletin or phpBB) popular in the early 2000s for online communities. They are often used to provide spaces for a community to exist around a given website or topic. <br><br>Legacy Online Forum Platforms allow users to create Accounts to join in discussion threads posted to any number of Forums and Sub-Forums on the platform. Forums and Sub-Forums can be Gated, allowing access to approved users only. They can vary in size. Some are larger platforms that host a wider set of topics and communities while others are smaller in scope and size. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.009.md",
+                    "external_id": "T0151.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

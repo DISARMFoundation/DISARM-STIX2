@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e2b8213-cb6d-4a16-a63a-0dda1e5301a0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--613431c3-2390-4eb0-bf78-f5d47bf76e26",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.245071Z",
+            "modified": "2025-03-11T12:54:45.245071Z",
+            "name": "Knowledge",
+            "description": "Measure current system state with respect to the effectiveness of influencing knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0133.004.md",
+                    "external_id": "T0133.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

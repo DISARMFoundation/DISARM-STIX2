@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1bc9c4bd-8d86-4b74-af05-bfbd2e1ffc2a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4d55c845-1271-43a0-a48a-06e630ab04b7",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.203341Z",
+            "modified": "2025-03-11T12:54:45.203341Z",
+            "name": "Determine Target Audiences",
+            "description": "Determining the target audiences (segments of the population) who will receive campaign narratives and artefacts intended to achieve the strategic ends.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-strategy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0073.md",
+                    "external_id": "T0073"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

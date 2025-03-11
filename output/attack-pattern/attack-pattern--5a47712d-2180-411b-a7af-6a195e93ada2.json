@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8b502f4-8d42-4c5e-8144-c37d89ae445c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5a47712d-2180-411b-a7af-6a195e93ada2",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.221246Z",
+            "modified": "2025-03-11T12:54:45.221246Z",
+            "name": "Recruiter Persona",
+            "description": "A person with a recruiter persona presents themselves as a potential employer or provider of freelance work.<br><br>While presenting as a recruiter is not an indication of inauthentic behaviour, threat actors fabricate recruiters (T0143.002: Fabricated Persona, T0097.106: Recruiter Persona) to justify asking for personal information from their targets or to trick targets into working for the threat actors (without revealing who they are).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.106.md",
+                    "external_id": "T0097.106"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--724ee803-6394-4a1a-85b3-fd93c6b63106",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ddb7404c-24cf-4956-bfe4-1125e036888e",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.195386Z",
+            "modified": "2025-03-11T12:54:45.195386Z",
+            "name": "Bait Influencer",
+            "description": "Influencers are people on social media platforms who have large audiences.<br /> <br />Threat Actors can try to trick Influencers such as celebrities, journalists, or local leaders who aren\u2019t associated with their campaign into amplifying campaign content. This gives them access to the Influencer\u2019s audience without having to go through the effort of building it themselves, and it helps legitimise their message by associating it with the Influencer, benefitting from their audience\u2019s trust in them.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0039.md",
+                    "external_id": "T0039"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

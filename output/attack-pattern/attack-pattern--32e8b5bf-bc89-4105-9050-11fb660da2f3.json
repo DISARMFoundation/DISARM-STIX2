@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca037fc0-5a86-4918-9098-0205df83c795",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--32e8b5bf-bc89-4105-9050-11fb660da2f3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.22195Z",
+            "modified": "2025-03-11T12:54:45.22195Z",
+            "name": "Romantic Suitor Persona",
+            "description": "A person with a romantic suitor persona presents themselves as seeking a romantic or physical connection with another person.<br><br>While presenting as seeking a romantic or physical connection is not an indication of inauthentic behaviour, threat actors can use dating apps, social media channels or dating websites to fabricate romantic suitors to lure targets they can blackmail, extract information from, deceive or trick into giving them money (T0143.002: Fabricated Persona, T0097.109: Romantic Suitor Persona).<br><br>Honeypotting in espionage and Big Butchering in scamming are commonly associated with romantic suitor personas.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.109.md",
+                    "external_id": "T0097.109"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

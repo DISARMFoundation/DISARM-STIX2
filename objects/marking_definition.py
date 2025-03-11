@@ -1,5 +1,4 @@
 from stix2 import MarkingDefinition, StatementMarking
-from objects import identity
 
 
 def make_disarm_marking_definition(identity_id):

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--76e79803-2ee6-4d76-a8dc-2f50a72911f8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8c5b5fd1-d3e1-4a0f-ba21-28facb445149",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.224546Z",
+            "modified": "2025-03-11T12:54:45.224546Z",
+            "name": "Social Cause Persona",
+            "description": "Online accounts which present themselves as focusing on a social cause are presenting the Social Cause Persona. Examples include accounts which post about current affairs, such as discrimination faced by minorities.<br><br> While presenting as an account invested in a social cause is not an indication of inauthentic behaviour, such personas have been used by threat actors to exploit peoples\u2019 legitimate emotional investment regarding social causes that matter to them (T0143.002: Fabricated Persona, T0097.208: Social Cause Persona).<br><br> Legitimate accounts focused on a social cause could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.208: Social Cause Persona). For example, the account holders could take money for using their position to provide legitimacy to a false narrative, or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.208.md",
+                    "external_id": "T0097.208"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

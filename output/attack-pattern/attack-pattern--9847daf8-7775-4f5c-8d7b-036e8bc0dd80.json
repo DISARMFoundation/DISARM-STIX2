@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1303be91-c825-404a-8b9a-bd2554351a19",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9847daf8-7775-4f5c-8d7b-036e8bc0dd80",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.25238Z",
+            "modified": "2025-03-11T12:54:45.25238Z",
+            "name": "Deter",
+            "description": "Prevent target from taking an action for fear of the consequences. Deterrence occurs in the mind of the target, who fears they will be worse off if they take an action than if they don\u2019t. When making threats, aggressors may bluff, feign irrationality, or engage in brinksmanship.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0139.003.md",
+                    "external_id": "T0139.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

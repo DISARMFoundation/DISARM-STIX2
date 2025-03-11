@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--944f7130-3f25-4855-9569-a84f713cf807",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ef26f1c5-b82e-4849-845d-d7b06ee37266",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.222173Z",
+            "modified": "2025-03-11T12:54:45.222173Z",
+            "name": "Party Official Persona",
+            "description": "A person who presents as an official member of a political party, such as leaders of political parties, candidates standing to represent constituents, and campaign staff.<br><br>Presenting as an official of a political party is not an indication of inauthentic behaviour, however threat actors may fabricate individuals who work in political parties to add credibility to their narratives (T0143.002: Fabricated Persona, T0097.110: Party Official Persona). They may also impersonate existing officials of political parties (T0143.003: Impersonated Persona, T0097.110: Party Official Persona).<br><br>Legitimate members of political parties could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.110: Party Official Persona). For example, an electoral candidate could take money for using their position to provide legitimacy to a false narrative, or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.110.md",
+                    "external_id": "T0097.110"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

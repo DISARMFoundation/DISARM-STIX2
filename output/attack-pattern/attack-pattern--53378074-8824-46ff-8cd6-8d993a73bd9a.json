@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--92b26530-89a8-43d9-8305-7862c6604367",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--53378074-8824-46ff-8cd6-8d993a73bd9a",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.263144Z",
+            "modified": "2025-03-11T12:54:45.263144Z",
+            "name": "Server Asset",
+            "description": "A Server is a computer which provides resources, services, or data to other computers over a network. There are different types of servers, such as web servers (which serve web pages and applications to users), database servers (which manage and provide access to databases), and file servers (which store and share files across a network).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.005.md",
+                    "external_id": "T0149.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

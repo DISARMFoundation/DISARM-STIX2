@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0cbc501a-a060-4e9d-9969-70e97c840d58",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fb26142c-cb73-4b9c-b6ba-0ec66d508855",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.274123Z",
+            "modified": "2025-03-11T12:54:45.274123Z",
+            "name": "Online Advertising Platform",
+            "description": "Google Ads, Facebook Ads, and LinkedIn Marketing Solutions are examples of Online Advertising Platforms.<br><br>Online Advertising Platforms are online platforms which allow people to create Accounts that they can use to upload and deliver adverts to people online.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0153.005.md",
+                    "external_id": "T0153.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

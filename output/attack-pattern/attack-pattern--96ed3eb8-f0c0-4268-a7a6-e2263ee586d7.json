@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b80e3ba1-261d-4170-87fe-a91248bf6f8a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--96ed3eb8-f0c0-4268-a7a6-e2263ee586d7",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.26917Z",
+            "modified": "2025-03-11T12:54:45.26917Z",
+            "name": "Comments Section",
+            "description": "Many platforms enable community interaction via Comments Sections on posted content. Comments Sections allow platform users to comment on content posted by other users. <br><br>On some platforms Comments Sections are the only place available for community interaction, such as news websites which provide a Comments Section to discuss articles posted to the website.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.014.md",
+                    "external_id": "T0151.014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

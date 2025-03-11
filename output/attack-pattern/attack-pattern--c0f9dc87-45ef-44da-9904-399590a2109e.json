@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5dd4d785-d5f0-479f-9a9c-5dcded825fe9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c0f9dc87-45ef-44da-9904-399590a2109e",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.220563Z",
+            "modified": "2025-03-11T12:54:45.220563Z",
+            "name": "Activist Persona",
+            "description": "A person with an activist persona presents themselves as an activist; an individual who campaigns for a political cause, organises related events, etc.<br><br>While presenting as an activist is not an indication of inauthentic behaviour, an influence operation may have its narratives amplified by people presenting as activists. Threat actors can fabricate activists to give the appearance of popular support for an evolving grassroots movement (see T0143.002: Fabricated Persona, T0097.103: Activist Persona).<br><br>People who are legitimate activists can use this persona for malicious purposes, or be exploited by threat actors. For example, someone could take money for using their position as an activist to provide visibility to a false narrative or be tricked into doing so without their knowledge (T0143.001: Authentic Persona, T0097.103: Activist Persona).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.103.md",
+                    "external_id": "T0097.103"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

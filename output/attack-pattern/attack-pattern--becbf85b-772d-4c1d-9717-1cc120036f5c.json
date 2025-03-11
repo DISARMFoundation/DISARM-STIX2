@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7581002f-d3b5-4f06-974f-9dfee7363955",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--becbf85b-772d-4c1d-9717-1cc120036f5c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.223477Z",
+            "modified": "2025-03-11T12:54:45.223477Z",
+            "name": "Fact Checking Organisation Persona",
+            "description": "An institution with a fact checking organisation persona presents itself as an organisation which produces reports which assess the validity of others\u2019 reporting / statements.<br><br> While presenting as a fact checking organisation is not an indication of inauthentic behaviour, an influence operation may have its narratives amplified by fact checking organisations. Threat actors can fabricate fact checking organisations (T0143.002: Fabricated Persona, T0097.202: News Outlet Persona), or they can impersonate existing fact checking outlets (T0143.003: Impersonated Persona, T0097.202: News Outlet Persona).<br><br> Legitimate fact checking organisations could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.202: News Outlet Persona).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.203.md",
+                    "external_id": "T0097.203"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

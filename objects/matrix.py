@@ -1,9 +1,5 @@
 from stix2 import CustomObject, properties, ExternalReference
 
-import objects.marking_definition
-from objects import identity, marking_definition
-
-
 @CustomObject('x-mitre-matrix', [
     ('name', properties.StringProperty(required=True)),
     ('description', properties.StringProperty(required=True)),

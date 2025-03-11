@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--42b4d03d-4cff-4943-a766-2259e4f8384b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--15c57f42-1b6f-41c5-b16b-87da063f4e42",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.251936Z",
+            "modified": "2025-03-11T12:54:45.251936Z",
+            "name": "Discourage",
+            "description": "To make a target disinclined or reluctant to act. Manipulators use disinformation to cause targets to question the utility, legality, or morality of taking an action. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0139.001.md",
+                    "external_id": "T0139.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

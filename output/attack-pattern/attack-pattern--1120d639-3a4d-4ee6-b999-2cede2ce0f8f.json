@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6045120f-0cb8-4c40-8e67-4e5931c4cbd9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1120d639-3a4d-4ee6-b999-2cede2ce0f8f",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.26057Z",
+            "modified": "2025-03-11T12:54:45.26057Z",
+            "name": "Payment Processing Platform",
+            "description": "Stripe, Paypal, and Apple Pay, Chargebee, Recurly and Zuora are examples of Payment Processing Platforms.<br><br>Payment Processing Platforms produce programs providing Payment Processing or Subscription Processing capabilities which actors can use to set up online storefronts, or to take donations.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0148.003.md",
+                    "external_id": "T0148.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

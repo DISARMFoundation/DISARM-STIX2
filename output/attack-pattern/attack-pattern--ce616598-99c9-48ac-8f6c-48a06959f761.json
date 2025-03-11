@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f18807f6-a268-4839-8213-bdf481c82ff8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ce616598-99c9-48ac-8f6c-48a06959f761",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.233668Z",
+            "modified": "2025-03-11T12:54:45.233668Z",
+            "name": "Bypass Content Blocking",
+            "description": "Bypassing content blocking refers to actions taken to circumvent network security measures that prevent users from accessing certain servers, resources, or other online spheres. An influence operation may bypass content blocking to proliferate its content on restricted areas of the internet. Common strategies for bypassing content blocking include: - Altering IP addresses to avoid IP filtering - Using a Virtual Private Network (VPN) to avoid IP filtering - Using a Content Delivery Network (CDN) to avoid IP filtering - Enabling encryption to bypass packet inspection blocking - Manipulating text to avoid filtering by keywords - Posting content on multiple platforms to avoid platform-specific removals - Using local facilities or modified DNS servers to avoid DNS filtering",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0121.001.md",
+                    "external_id": "T0121.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

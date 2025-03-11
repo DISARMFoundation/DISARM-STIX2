@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a5cff5d3-04c6-4bba-a33b-97592b7074ff",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e30486df-8396-4968-8ee7-a0bd56e0ed9a",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.247705Z",
+            "modified": "2025-03-11T12:54:45.247705Z",
+            "name": "Justify Action",
+            "description": "To convince others to exonerate you of a perceived wrongdoing. When an actor finds it untenable to deny doing something, they may attempt to exonerate themselves with disinformation which claims the action was reasonable. This is a special case of \u201cDefend Reputation\u201d. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0136.002.md",
+                    "external_id": "T0136.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

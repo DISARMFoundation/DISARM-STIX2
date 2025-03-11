@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a8bab86b-61a3-4278-9430-df69892c7076",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dc0096b7-d195-4da4-a49b-71244c085608",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.272774Z",
+            "modified": "2025-03-11T12:54:45.272774Z",
+            "name": "Subscription Service Platform",
+            "description": "Patreon, Fansly, and OnlyFans are examples of Subscription Service Platforms.<br><br>Subscription Service Platforms enable users with Accounts to host online content to which other platform users can subscribe to access. Content typically requires Paid Subscription to access, however open content is often also supported.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0152.012.md",
+                    "external_id": "T0152.012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

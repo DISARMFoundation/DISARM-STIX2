@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe9c0886-8775-4de0-9172-36ff718496f6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--64916b9d-ef3a-4262-801c-5872e921e6bd",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.27171Z",
+            "modified": "2025-03-11T12:54:45.27171Z",
+            "name": "Audio Platform",
+            "description": "Soundcloud, Spotify, and YouTube Music; Apple Podcasts, Podbean, and Captivate are examples of Audio Platforms.<br><br>Audio Platforms allow people to create Accounts which they can use to upload audio content to the platform. <br><br>The ability to host audio is not exclusive to Audio Platforms; many online platforms allow users with Accounts to upload audio content. However, Audio Platforms\u2019 primary purpose is to be a place to host and listen to audio content.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0152.007.md",
+                    "external_id": "T0152.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

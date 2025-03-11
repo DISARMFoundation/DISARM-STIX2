@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--76270974-21f1-4374-88f6-1c021b48a3b0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--66a81ff0-a3fc-49d1-b1bd-840860ddebc0",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.254505Z",
+            "modified": "2025-03-11T12:54:45.254505Z",
+            "name": "Parody Persona",
+            "description": "Parody is a form of artistic expression that imitates the style or characteristics of a particular work, genre, or individual in a humorous or satirical way, often to comment on or critique the original work or subject matter. People may present as parodies to create humour or make a point by exaggerating or altering elements of the original, while still maintaining recognizable elements.<br><br> The use of parody is not an indication of inauthentic or malicious behaviour; parody allows people to present ideas or criticisms in a comedic or exaggerated manner, softening the impact of sensitive or contentious topics. Because parody is often protected as a form of free speech or artistic expression, it provides a legal and social framework for discussing controversial issues.<br><br> However, parody personas may be perceived as authentic personas, leading to people mistakenly believing that a parody account\u2019s statements represent the real opinions of a parodied target. Threat actors may also use the guise of parody to spread campaign content. Parody personas may disclaim that they are operating as a parody, however this is not always the case, and is not always given prominence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0143.004.md",
+                    "external_id": "T0143.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

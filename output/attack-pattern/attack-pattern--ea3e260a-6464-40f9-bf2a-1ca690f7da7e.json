@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--443b27fb-40bf-48a3-8c4e-cc2fe7431153",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ea3e260a-6464-40f9-bf2a-1ca690f7da7e",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.273206Z",
+            "modified": "2025-03-11T12:54:45.273206Z",
+            "name": "Email Platform",
+            "description": "Gmail, iCloud mail, and Microsoft Outlook are examples of Email Platforms.<br><br>Email Platforms are online platforms which allow people to create Accounts that they can use to send and receive emails to and from other email accounts. <br><br>Instead of using an Email Platform, actors may set up their own Email Domain, letting them send and receive emails on a custom domain.<br><br>Analysts should default to Email Platform if they cannot confirm whether an email was sent using a privately operated email, or via an account on a public email platform (for example, in situations where analysts are coding third party reporting which does not specify the type of email used).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0153.001.md",
+                    "external_id": "T0153.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

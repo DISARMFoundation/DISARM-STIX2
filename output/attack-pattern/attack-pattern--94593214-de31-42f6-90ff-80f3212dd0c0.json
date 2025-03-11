@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc6c015d-8b62-474d-9844-453250dec6d5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--94593214-de31-42f6-90ff-80f3212dd0c0",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.211284Z",
+            "modified": "2025-03-11T12:54:45.211284Z",
+            "name": "Develop Inauthentic News Articles",
+            "description": "An influence operation may develop false or misleading news articles aligned to their campaign goals or narratives.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0085.003.md",
+                    "external_id": "T0085.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

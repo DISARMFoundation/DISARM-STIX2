@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--07deaef2-d8b2-4fac-a8cb-79953ef6406d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9d7b3aec-af54-4afe-a240-88cd96587faa",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.246412Z",
+            "modified": "2025-03-11T12:54:45.246412Z",
+            "name": "Smear",
+            "description": "Denigrate, disparage, or discredit an opponent. This is a common tactical objective in political campaigns with a larger strategic goal. It differs from efforts to harm a target through defamation. If there is no ulterior motive and the sole aim is to cause harm to the target, then choose sub-technique \u201cDefame\u201d of technique \u201cCause Harm\u201d instead.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0135.001.md",
+                    "external_id": "T0135.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--adef79a8-ec6d-4dd6-988d-fd0224ef86f8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--54f68b62-0a80-4b5b-9cb5-0068e1dbdaa5",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.217133Z",
+            "modified": "2025-03-11T12:54:45.217133Z",
+            "name": "Create Community or Sub-Group",
+            "description": "When there is not an existing community or sub-group that meets a campaign's goals, an influence operation may seek to create a community or sub-group.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0092.003.md",
+                    "external_id": "T0092.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

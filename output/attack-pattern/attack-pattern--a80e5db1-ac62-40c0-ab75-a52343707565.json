@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--aff4ee9d-1c7c-470d-bb11-0b6efe25345d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a80e5db1-ac62-40c0-ab75-a52343707565",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.219686Z",
+            "modified": "2025-03-11T12:54:45.219686Z",
+            "name": "Present Persona",
+            "description": "This Technique contains different types of personas commonly taken on by threat actors during influence operations.<br><br>Analysts should use T0097\u2019s sub-techniques to document the type of persona which an account is presenting. For example, an account which describes itself as being a journalist can be tagged with T0097.102: Journalist Persona.<br><br>Personas presented by individuals include:<br><br>T0097.100: Individual Persona<br>T0097.101: Local Persona<br>T0097.102: Journalist Persona<br>T0097.103: Activist Persona<br>T0097.104: Hacktivist Persona<br>T0097.105: Military Personnel Persona<br>T0097.106: Recruiter Persona<br>T0097.107: Researcher Persona<br>T0097.108: Expert Persona<br>T0097.109: Romantic Suitor Persona<br>T0097.110: Party Official Persona<br>T0097.111: Government Official Persona<br>T0097.112: Government Employee Persona<br><br>This Technique also houses institutional personas commonly taken on by threat actors:<br><br>T0097.200: Institutional Persona<br>T0097.201: Local Institution Persona<br>T0097.202: News Outlet Persona<br>T0097.203: Fact Checking Organisation Persona<br>T0097.204: Think Tank Persona<br>T0097.205: Business Persona<br>T0097.206: Government Institution Persona<br>T0097.207: NGO Persona<br>T0097.208: Social Cause Persona<br><br>By using a persona, a threat actor is adding the perceived legitimacy of the persona to their narratives and activities.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.md",
+                    "external_id": "T0097"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

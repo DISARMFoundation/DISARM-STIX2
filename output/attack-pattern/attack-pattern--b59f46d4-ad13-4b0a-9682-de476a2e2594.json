@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5a7f792-1a07-467c-8822-54d00d20678c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b59f46d4-ad13-4b0a-9682-de476a2e2594",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.275645Z",
+            "modified": "2025-03-11T12:54:45.275645Z",
+            "name": "Password Gated Asset",
+            "description": "A Password Gated Asset is an online asset which requires a password to gain access. <br><br>Examples include password protected Servers set up to be a File Hosting Platform, or password protected Community Sub-Forums.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0155.001.md",
+                    "external_id": "T0155.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

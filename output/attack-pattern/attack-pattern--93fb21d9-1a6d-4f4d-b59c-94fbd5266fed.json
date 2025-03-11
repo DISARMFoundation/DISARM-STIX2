@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--66103d31-35aa-4d96-b2aa-f6bda5f6277d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--93fb21d9-1a6d-4f4d-b59c-94fbd5266fed",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.253213Z",
+            "modified": "2025-03-11T12:54:45.253213Z",
+            "name": "Intimidate",
+            "description": "Coerce, bully, or frighten the target. An influence operation may use intimidation to compel the target to act against their will. Or the goal may be to frighten or even terrify the target into silence or submission. In some cases, the goal is simply to make the victim suffer.   ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0140.002.md",
+                    "external_id": "T0140.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

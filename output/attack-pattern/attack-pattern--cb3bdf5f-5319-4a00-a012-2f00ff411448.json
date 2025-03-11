@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8c6d4139-1aac-4a4b-a30d-d9835b025e34",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cb3bdf5f-5319-4a00-a012-2f00ff411448",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.202761Z",
+            "modified": "2025-03-11T12:54:45.202761Z",
+            "name": "Psychographic Segmentation",
+            "description": "An influence operation may target populations based on psychographic segmentation, which uses audience values and decision-making processes. An operation may individually gather psychographic data with its own surveys or collection tools or externally purchase data from social media companies or online surveys, such as personality quizzes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0072.004.md",
+                    "external_id": "T0072.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

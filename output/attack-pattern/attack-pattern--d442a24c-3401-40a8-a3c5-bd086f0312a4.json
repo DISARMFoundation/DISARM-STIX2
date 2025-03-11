@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--626f3db6-aac4-4720-89cd-91b00b4e0dbc",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d442a24c-3401-40a8-a3c5-bd086f0312a4",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.266617Z",
+            "modified": "2025-03-11T12:54:45.266617Z",
+            "name": "Online Community Group",
+            "description": "Some online platforms allow people with Accounts to create Online Community Groups. Groups are usually created around a specific topic or locality, and allow users to post content to the group, and interact with other users\u2019 posted content. <br><br>For example, Meta\u2019s Social Media Platform Facebook allows users to create a \u201cFacebook group\u201d. This feature is not exclusive to Social Media Platforms; the Microblogging Platform X (prev. Twitter) allows users to create \u201cX Communities\u201d, groups based on particular topics which users can join and post to; the Software Delivery Platform Steam allows users to create Steam Community Groups.<br><br>Online Community Groups can be open or gated (for example, groups can require admin approval before users can join).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.002.md",
+                    "external_id": "T0151.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

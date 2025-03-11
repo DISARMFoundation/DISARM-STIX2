@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5199888-9c3e-4d2d-975e-e17c2cb3771c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1dde97fd-fac6-4c69-a2df-698b169e123e",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.22369Z",
+            "modified": "2025-03-11T12:54:45.22369Z",
+            "name": "Think Tank Persona",
+            "description": "An institution with a think tank persona presents itself as a think tank; an organisation that aims to conduct original research and propose new policies or solutions, especially for social and scientific problems.<br><br> While presenting as a think tank is not an indication of inauthentic behaviour, think tank personas are commonly used by threat actors as a front for their operational activity (T0143.002: Fabricated Persona, T0097.204: Think Tank Persona). They may be created to give legitimacy to narratives and allow them to suggest politically beneficial solutions to societal issues.<br><br> Legitimate think tanks could have a political bias that they may not be transparent about, they could use their persona for malicious purposes, or they could be exploited by threat actors (T0143.001: Authentic Persona, T0097.204: Think Tank Persona). For example, a think tank could take money for using their position to provide legitimacy to a false narrative, or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.204.md",
+                    "external_id": "T0097.204"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

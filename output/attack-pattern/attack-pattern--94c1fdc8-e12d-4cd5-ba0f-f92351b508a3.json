@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--edd0d624-a1e0-4241-84c5-ba07323a7077",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--94c1fdc8-e12d-4cd5-ba0f-f92351b508a3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.275191Z",
+            "modified": "2025-03-11T12:54:45.275191Z",
+            "name": "AI Media Platform",
+            "description": "AI Media Platforms are online platforms that allow people to create Accounts which they can use to produce image, video, or audio content (also known as \u201cdeepfakes\u201d) using the platform\u2019s AI Software.<br><br>Midjourney, DALL-E, Stable Diffusion, and Adobe Firefly are examples of AI Media Platforms which allow users to Develop AI-Generated Images, AI-Generated Videos and AI-Generated Account Imagery. <br><br>Similarly, Reface, Zao, FaceApp, and Wombo are mobile apps which offer features for creating AI-Generated videos, gifs, or trending memes.<br><br>AI-Generated Audio such as text-to-speech and voice cloning have revolutionised the creation of synthetic voices that closely mimic human speech. AI Media Platforms such as Descript, Fliki, Murf AI, PlayHT, and Resemble AI can be used to generate synthetic voice. <br><br>Some platforms implement protections against misuse of AI by their users. Threat Actors have been observed bypassing these protections using prompt injections, poisoning, jailbreaking, or integrity attacks.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0154.002.md",
+                    "external_id": "T0154.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

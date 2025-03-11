@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--81291552-13f7-4b3c-9713-fcb54e1da840",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f273fa03-1bd9-489a-915b-5539788acf08",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.253651Z",
+            "modified": "2025-03-11T12:54:45.253651Z",
+            "name": "Persona Legitimacy",
+            "description": "This Technique contains sub-techniques which analysts can use to assert whether an account is presenting an authentic, fabricated, or parody persona:<br><br> T0143.001: Authentic Persona<br> T0143.002: Fabricated Persona<br> T0143.003: Impersonated Persona<br> T0143.004: Parody Persona",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0143.md",
+                    "external_id": "T0143"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

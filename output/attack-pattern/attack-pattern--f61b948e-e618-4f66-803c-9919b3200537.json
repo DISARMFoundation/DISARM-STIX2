@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--19ff0767-85ab-4640-a053-caba02fa994d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f61b948e-e618-4f66-803c-9919b3200537",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.25686Z",
+            "modified": "2025-03-11T12:54:45.25686Z",
+            "name": "Stock Image Account Imagery",
+            "description": "Stock images used in account imagery.<br><br> Stock image websites produce photos of people in various situations. Threat Actors can purchase or appropriate these images for use in their account imagery, increasing perceived legitimacy while avoiding the risk of detection associated with stealing or AI-generating profile pictures (see T0145.001: Copy Account Imagery and T0145.002: AI-Generated Account Imagery).\u00a0<br><br> Stock images tend to include physically attractive people, and this can benefit threat actors by increasing attention given to their posts.<br><br> This Technique is often used by Coordinated Inauthentic Behaviour accounts (CIBs). A collection of accounts displaying the same behaviour using similar account imagery can indicate the presence of CIB.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0145.007.md",
+                    "external_id": "T0145.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

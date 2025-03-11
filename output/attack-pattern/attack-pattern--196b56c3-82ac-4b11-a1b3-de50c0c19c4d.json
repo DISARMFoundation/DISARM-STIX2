@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1a205db-856c-4725-86a9-4cd203276602",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--196b56c3-82ac-4b11-a1b3-de50c0c19c4d",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.224113Z",
+            "modified": "2025-03-11T12:54:45.224113Z",
+            "name": "Government Institution Persona",
+            "description": "Institutions which present themselves as governments, or government ministries, are presenting a government institution persona.<br><br> While presenting as a government institution is not an indication of inauthentic behaviour, threat actors may impersonate existing government institutions as part of their operation (T0143.003: Impersonated Persona, T0097.206: Government Institution Persona), to add legitimacy to their narratives, or discredit the government.<br><br> Legitimate government institutions could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.206: Government Institution Persona). For example, a government institution could be used by elected officials to spread inauthentic narratives.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.206.md",
+                    "external_id": "T0097.206"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

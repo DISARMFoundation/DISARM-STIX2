@@ -1,13 +1,11 @@
 from stix2 import CustomObject, properties, ExternalReference
 
-import objects.marking_definition
-from objects import identity, marking_definition
 
 valid_tactics = ["plan-strategy", "plan-objectives", "microtarget", "develop-content",
                  "select-channels-and-affordances", "conduct-pump-priming", "deliver-content",
                  "drive-offline-activity", "persist-in-the-information-environment", "assess-effectiveness",
                  "target-audience-analysis", "develop-narratives", "establish-social-assets", "establish-legitimacy",
-                 "maximize-exposure", "drive-online-harms"]
+                 "maximize-exposure", "drive-online-harms", "establish-assets", "maximise-exposure"]
 
 @CustomObject('x-mitre-tactic', [
     ('name', properties.StringProperty(required=True)),

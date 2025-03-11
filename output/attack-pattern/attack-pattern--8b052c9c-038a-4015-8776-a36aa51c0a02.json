@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fa72b9f7-7434-4fc3-85d3-4bba05d05319",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8b052c9c-038a-4015-8776-a36aa51c0a02",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.247493Z",
+            "modified": "2025-03-11T12:54:45.247493Z",
+            "name": "Defend Reputaton",
+            "description": "Preserve a positive perception in the public\u2019s mind following an accusation or adverse event. When accused of a wrongful act, an actor may engage in denial, counter accusations, whataboutism, or conspiracy theories to distract public attention and attempt to maintain a positive image. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0136.001.md",
+                    "external_id": "T0136.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

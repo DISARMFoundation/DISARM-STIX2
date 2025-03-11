@@ -1,7 +1,4 @@
-from stix2 import AttackPattern, properties, ExternalReference
-import objects.marking_definition
-import pandas as pd
-from objects import identity, marking_definition
+from stix2 import AttackPattern
 
 
 def make_disarm_techniques(data, identity_id, marking_id):
@@ -14,7 +11,7 @@ def make_disarm_techniques(data, identity_id, marking_id):
         A list of Techniques.
 
     """
-    tacdict = pd.Series(data["tactics"].name.values, index=data["tactics"].disarm_id).to_dict()
+    tacdict = {disarm_id: name for disarm_id, name in zip(data["tactics"].disarm_id, data["tactics"].name.values)}
     techniques = []
     for t in data["techniques"].values.tolist():
         external_references = [

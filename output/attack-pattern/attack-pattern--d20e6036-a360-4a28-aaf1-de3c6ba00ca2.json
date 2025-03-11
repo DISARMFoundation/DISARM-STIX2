@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc06093f-ca54-40c1-a626-3a06311703fe",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d20e6036-a360-4a28-aaf1-de3c6ba00ca2",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.257296Z",
+            "modified": "2025-03-11T12:54:45.257296Z",
+            "name": "Free Account Asset",
+            "description": "Many online platforms allow users to create free accounts on their platform. A Free Account is an Account which does not require payment at account creation and is not subscribed to paid platform features.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0146.001.md",
+                    "external_id": "T0146.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

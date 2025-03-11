@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc5248c4-eb47-419e-b0ee-c9d11de1efde",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f3dce97b-1180-43c7-901a-7b07aac300ca",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.274977Z",
+            "modified": "2025-03-11T12:54:45.274977Z",
+            "name": "AI LLM Platform",
+            "description": "OpenAI\u2019s ChatGPT, Google\u2019s Bard, Microsoft\u2019s Turing-NLG, Google\u2019s T5 (Text-to-Text Transfer Transformer), and Facebook\u2019s BART are examples of AI LLM (Large Language Model) Platforms.<br><br>AI LLM Platforms are online platforms which allow people to create Accounts that they can use to interact with the platform\u2019s AI Large Language Model, to produce text-based content.<br><br>LLMs can create hyper-realistic synthetic text that is both scalable and persuasive. LLMs can largely automate content production, reducing the overhead in persona creation, and generate culturally appropriate outputs that are less prone to exhibiting conspicuous signs of inauthenticity.<br><br>Some platforms implement protections against misuse of AI by their users. Threat Actors have been observed bypassing these protections using prompt injections, poisoning, jailbreaking, or integrity attacks.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0154.001.md",
+                    "external_id": "T0154.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

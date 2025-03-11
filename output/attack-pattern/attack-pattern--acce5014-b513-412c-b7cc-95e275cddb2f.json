@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--91536879-a108-437c-b987-9f9bed1c8b37",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--acce5014-b513-412c-b7cc-95e275cddb2f",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.268323Z",
+            "modified": "2025-03-11T12:54:45.268323Z",
+            "name": "Community Forum Platform",
+            "description": "Reddit, Lemmy and Tildes are examples of Community Forum Platforms.<br><br>Community Forum Platforms are exemplified by users\u2019 ability to create their own sub-communities (Community Sub-Forums) which other platform users can join. <br><br>Platform users can view aggregated content from all Community Sub-Forums they subscribe to, or they can view all content from a particular Community Sub-Forum.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.010.md",
+                    "external_id": "T0151.010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

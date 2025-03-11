@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b27a22f8-1790-491c-a58c-a44bc7ffae98",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--098ac130-2fcd-4584-8dbf-006d4dfe6b80",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.276708Z",
+            "modified": "2025-03-11T12:54:45.276708Z",
+            "name": "Subscription Access Asset",
+            "description": "A Subscription Access Asset is an online asset which requires a continued subscription for access to the asset.<br><br>Examples include the Blogging Platform Substack, which affords Blogs hosted on their platform the ability to produce subscriber-only posts, and the Subscription Service Platform Patreon.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0155.006.md",
+                    "external_id": "T0155.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

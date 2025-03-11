@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--dc80a7c9-114f-4da7-9906-29e5ccdb885f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e945232f-f041-4c4c-ba8e-683ba6567a81",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.221501Z",
+            "modified": "2025-03-11T12:54:45.221501Z",
+            "name": "Researcher Persona",
+            "description": "A person with a researcher persona presents themselves as conducting research (e.g. for academic institutions, or think tanks), or having previously conducted research.<br><br>While presenting as a researcher is not an indication of inauthentic behaviour,\u00a0 an influence operation may have its narratives amplified by people presenting as researchers. Threat actors can fabricate researchers (T0143.002: Fabricated Persona, T0097.107: Researcher Persona) to add credibility to their narratives.<br><br>People who are legitimate researchers (T0143.001: Authentic Persona, T0097.107: Researcher Persona) can use their persona for malicious purposes, or be exploited by threat actors. For example, someone could take money for using their position as a Researcher to provide legitimacy to a false narrative or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.107.md",
+                    "external_id": "T0097.107"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

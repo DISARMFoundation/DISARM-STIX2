@@ -3,13 +3,6 @@
 # Author: Roger Johnston, Twitter: @VV_X_7
 # License: GPL-3
 
-import pandas as pd
-import openpyxl
-from stix2 import (Bundle, AttackPattern, ThreatActor, IntrusionSet, Relationship, CustomObject, properties,
-                   Malware, Tool, Campaign, Identity, MarkingDefinition, ExternalReference, StatementMarking,
-                   GranularMarking, Location, MemoryStore, Filter)
-from stix2.properties import (ReferenceProperty, ListProperty, StringProperty, TimestampProperty, BooleanProperty, IntegerProperty)
-
 import helpers
 from objects import tactic, technique, matrix, bundle, relationship, identity, marking_definition
 from helpers import xlsx, file
@@ -21,7 +14,7 @@ def generate_disarm_stix():
     Returns:
 
     """
-    data = helpers.xlsx.load_excel_data()
+    data = helpers.xlsx.load_excel_data(only_sheets=['tactics', 'techniques'])
 
     disarm_identity = identity.make_disarm_identity()
     identity_id = disarm_identity[0]["id"]

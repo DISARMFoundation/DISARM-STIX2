@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--76a2ed5f-4db1-4a74-ac9d-143c7f6af0c5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--76686d0f-f68e-4590-b595-e21094ee7c3c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.226473Z",
+            "modified": "2025-03-11T12:54:45.226473Z",
+            "name": "Leverage Echo Chambers/Filter Bubbles",
+            "description": "An echo chamber refers to an internet subgroup, often along ideological lines, where individuals only engage with \u201cothers with which they are already in agreement.\u201d A filter bubble refers to an algorithm's placement of an individual in content that they agree with or regularly engage with, possibly entrapping the user into a bubble of their own making. An operation may create these isolated areas of the internet by match existing groups, or aggregating individuals into a single target audience based on shared interests, politics, values, demographics, and other characteristics. Echo chambers and filter bubbles help to reinforce similar biases and content to the same target audience members.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtarget"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0102.md",
+                    "external_id": "T0102"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

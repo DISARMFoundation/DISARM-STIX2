@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--04407583-7bb8-4966-aa0e-40f127db42e0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1cf8d7f5-7faf-41eb-bd53-82f40c7a13d4",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.248134Z",
+            "modified": "2025-03-11T12:54:45.248134Z",
+            "name": "Boost Reputation",
+            "description": "Elevate the estimation of the actor in the public\u2019s mind. Improve their image or standing. Public relations professionals use persuasive overt communications to achieve this goal; manipulators use covert disinformation. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0136.004.md",
+                    "external_id": "T0136.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3236c313-97e3-408b-a7c5-374d1be833b8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e9034baa-559d-4730-9259-489daf846405",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.222611Z",
+            "modified": "2025-03-11T12:54:45.222611Z",
+            "name": "Government Employee Persona",
+            "description": "A person who presents as an active or previous civil servant has the government employee persona. These are professionals hired to serve in government institutions and departments, not officials selected to represent constituents, or assigned official roles in government (such as heads of departments).<br><br> Presenting as a government employee is not an indication of inauthentic behaviour, however threat actors may fabricate individuals who work in government to add credibility to their narratives (T0143.002: Fabricated Persona, T0097.112: Government Employee Persona). They may also impersonate existing government employees (T0143.003: Impersonated Persona, T0097.112: Government Employee Persona).<br><br> Legitimate government employees could use their persona for malicious purposes, or be exploited by threat actors (T0143.001: Authentic Persona, T0097.112: Government Employee Persona). For example, a government employee could take money for using their position to provide legitimacy to a false narrative, or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.112.md",
+                    "external_id": "T0097.112"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

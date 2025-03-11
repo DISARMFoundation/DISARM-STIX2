@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d9054cba-1baa-45a9-872e-44bc5afc0010",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9961b2e1-f43a-43fd-a823-1331dda7a067",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.264458Z",
+            "modified": "2025-03-11T12:54:45.264458Z",
+            "name": "Newly Created Asset",
+            "description": "A Newly Created Asset is an asset which has been created and used for the first time in a documented potential incident.<br><br>For example, analysts which can identify a recent creation date of Accounts participating in the spread of a new narrative can assert these are Newly Created Assets.<br><br>Analysts should use Dormant if the asset was created and laid dormant for an extended period of time before activity.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0150.001.md",
+                    "external_id": "T0150.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

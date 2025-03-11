@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef9edcc9-f6f2-40a5-befe-b15e4ee3950f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2dbc60fc-451b-44b9-99ba-6496461b6392",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.255142Z",
+            "modified": "2025-03-11T12:54:45.255142Z",
+            "name": "Persona Template",
+            "description": "Threat actors have been observed following a template when filling their accounts\u2019 online profiles. This may be done to enable account holders to quickly present themselves as a real person with a targeted persona.<br><br> For example, an actor may be instructed to create many fabricated local accounts for use in an operation using a template of \u201c[flag emojis], [location], [personal quote], [political party] supporter\u201d in their account\u2019s description.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0144.002.md",
+                    "external_id": "T0144.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

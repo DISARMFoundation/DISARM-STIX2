@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--65b78ab4-6b6b-4ae3-b5cf-6b08730cdfdc",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4be6fd04-253c-485e-9592-db7a47216d2f",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.266363Z",
+            "modified": "2025-03-11T12:54:45.266363Z",
+            "name": "Social Media Platform",
+            "description": "Examples of popular Social Media Platforms include Facebook, Instagram, and VK.<br><br>Social Media Platforms allow users to create Accounts, which they can configure to present themselves to other platform users. This typically involves Establishing Account Imagery and Presenting a Persona.<br><br>Social Media Platforms typically allow the creation of Online Community Groups and Online Community Pages.<br><br>Accounts on Social Media Platforms are typically presented with a feed of content posted to the platform. The content that populates this feed can be aggregated by the platform\u2019s proprietary Content Recommendation Algorithm, or users can \u201cfriend\u201d or \u201cfollow\u201d other accounts to add their posts to their feed.<br><br>Many Social Media Platforms also allow users to send direct messages to other users on the platform. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.001.md",
+                    "external_id": "T0151.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

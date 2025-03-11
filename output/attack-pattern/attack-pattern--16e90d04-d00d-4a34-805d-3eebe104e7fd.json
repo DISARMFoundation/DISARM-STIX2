@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f5fe341-45b9-4361-9bb7-a141a0126ce7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--16e90d04-d00d-4a34-805d-3eebe104e7fd",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.267038Z",
+            "modified": "2025-03-11T12:54:45.267038Z",
+            "name": "Chat Platform",
+            "description": "Examples of popular Chat Platforms include WhatsApp, WeChat, Telegram, and Signal; Slack, Mattermost, and Discord; Zoom, GoTo Meeting, and WebEx.<br><br>Chat Platforms allow users to engage in text, audio, or video chats with other platform users.<br><br>Different Chat Platforms afford users different capabilities. Examples include Direct Messaging, Chat Rooms, Chat Broadcast Channels, and Chat Community Servers.<br><br>Some Chat Platforms enable encrypted communication between platform users.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0151.004.md",
+                    "external_id": "T0151.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

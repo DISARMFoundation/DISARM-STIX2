@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--816581f5-f18e-4f01-99ba-1f268bc87ac6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a0561ba6-8db5-49b0-b780-23d32060d48c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.276069Z",
+            "modified": "2025-03-11T12:54:45.276069Z",
+            "name": "Approval Gated Asset",
+            "description": "An Approval Gated Asset is an online asset which requires approval from Administrator Accounts for access to the asset.<br><br>Examples include Online Community Groups on Facebook, which can be configured to require questions and approval before access, and Accounts on Social Media Platforms such as Instagram, which allow users to set their accounts as visible to approved friends only.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0155.003.md",
+                    "external_id": "T0155.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

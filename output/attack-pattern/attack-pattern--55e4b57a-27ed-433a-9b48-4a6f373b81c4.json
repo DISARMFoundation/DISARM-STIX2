@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7552bc4-d4e3-4842-a77d-e861959f79b9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--55e4b57a-27ed-433a-9b48-4a6f373b81c4",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.263602Z",
+            "modified": "2025-03-11T12:54:45.263602Z",
+            "name": "VPN Asset",
+            "description": "A VPN (Virtual Private Network) is a service which creates secure, encrypted connections over the internet, allowing users to transmit data safely and access network resources remotely. It masks IP Addresses, enhancing privacy and security by preventing unauthorised access and tracking. VPNs are commonly used for protecting sensitive information, bypassing geographic restrictions, and maintaining online anonymity.<br><br>VPNs can also allow a threat actor to pose as if they are located in one country while in reality being based in another. By doing so, they can try to either mis-attribute their activities to another actor or better hide their own identity.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.007.md",
+                    "external_id": "T0149.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

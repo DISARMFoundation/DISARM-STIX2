@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc697e44-7477-47bd-8ea3-dfb3cbaef9ff",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ee76ac36-8181-4fcb-9e8b-d74864e0aa03",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.262718Z",
+            "modified": "2025-03-11T12:54:45.262718Z",
+            "name": "Lookalike Domain",
+            "description": "A Lookalike Domain is a Domain which is visually similar to another Domain, with the potential for web users to mistake one domain for the other.<br><br>Threat actors who want to impersonate organisations\u2019 websites have been observed using a variety of domain impersonation methods. For example, actors wanting to create a domain impersonating netflix.com may use methods such as typosquatting (e.g. n3tflix.com), combosquatting (e.g. netflix-billing.com), or TLD swapping (e.g. netflix.top).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.003.md",
+                    "external_id": "T0149.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

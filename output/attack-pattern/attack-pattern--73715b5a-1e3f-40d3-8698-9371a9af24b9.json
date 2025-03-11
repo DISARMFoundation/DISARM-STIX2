@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fcdb813-aa56-4326-a687-7da1ce90e5f4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--73715b5a-1e3f-40d3-8698-9371a9af24b9",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.221004Z",
+            "modified": "2025-03-11T12:54:45.221004Z",
+            "name": "Military Personnel Persona",
+            "description": "A person with a military personnel persona presents themselves as a serving member or veteran of a military organisation operating in an official capacity on behalf of a government.<br><br>While presenting as military personnel is not an indication of inauthentic behaviour,\u00a0 an influence operation may have its narratives amplified by people presenting as military personnel. Threat actors can fabricate military personnel (T0143.002: Fabricated Persona, T0097.105: Military Personnel Persona) to pose as experts on military topics, or to discredit geopolitical adversaries by pretending to be one of their military personnel and spreading discontent.<br><br>People who have legitimately developed a military persona (T0143.001: Authentic Persona, T0097.105: Military Personnel Persona) can use it for malicious purposes, or be exploited by threat actors. For example, someone could take money for using their position as a member of the military to provide legitimacy to a false narrative or be tricked into doing so without their knowledge.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0097.105.md",
+                    "external_id": "T0097.105"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

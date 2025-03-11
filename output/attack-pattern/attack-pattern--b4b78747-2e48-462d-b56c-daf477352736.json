@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbdf14dd-6054-4dff-a52d-1c958c5e182c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b4b78747-2e48-462d-b56c-daf477352736",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.247059Z",
+            "modified": "2025-03-11T12:54:45.247059Z",
+            "name": "Polarise",
+            "description": "To cause a target audience to divide into two completely opposing groups. This is a special case of subversion. To divide and conquer is an age-old approach to subverting and overcoming an enemy.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0135.004.md",
+                    "external_id": "T0135.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

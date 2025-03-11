@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0c6e63d-ed9f-4737-9cb9-4ed3534b7baf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2d0e2e07-7182-44c3-b89a-1f6f762b50d7",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.258181Z",
+            "modified": "2025-03-11T12:54:45.258181Z",
+            "name": "Lookalike Account ID",
+            "description": "Many platforms which host online communities require creation of a username (or another unique identifier) when an Account is created.<br><br>Sometimes people create usernames which are visually similar to other existing accounts\u2019 usernames. While this is not necessarily an indicator of malicious behaviour, actors can create Lookalike Account IDs to support Impersonations or Parody.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0146.005.md",
+                    "external_id": "T0146.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

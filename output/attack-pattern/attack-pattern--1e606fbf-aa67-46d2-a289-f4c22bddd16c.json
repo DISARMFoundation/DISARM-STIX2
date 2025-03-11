@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--20d647e1-b0a7-4eeb-9037-b1d2b43954eb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1e606fbf-aa67-46d2-a289-f4c22bddd16c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.273698Z",
+            "modified": "2025-03-11T12:54:45.273698Z",
+            "name": "Shortened Link Asset",
+            "description": "A Shortened Link is a custom URL which is typically a shortened version of another URL.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0153.003.md",
+                    "external_id": "T0153.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

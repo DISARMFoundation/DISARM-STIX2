@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b7caeab-e9a3-447a-a0e7-c4fef8406477",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a5c36bc0-eb7f-43b1-884c-a2b0a0e53c3d",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.231416Z",
+            "modified": "2025-03-11T12:54:45.231416Z",
+            "name": "Amplify Existing Narrative",
+            "description": "An influence operation may amplify existing narratives that align with its narratives to support operation objectives.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0118.md",
+                    "external_id": "T0118"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

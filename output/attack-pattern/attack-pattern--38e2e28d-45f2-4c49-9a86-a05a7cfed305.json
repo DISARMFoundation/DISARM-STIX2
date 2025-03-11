@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--244f04c8-9ac3-4845-b1a2-fea4e01a712c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--38e2e28d-45f2-4c49-9a86-a05a7cfed305",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.255572Z",
+            "modified": "2025-03-11T12:54:45.255572Z",
+            "name": "Copy Account Imagery",
+            "description": "Account imagery copied from an existing account.<br><br> Analysts may use reverse image search tools to try to identify previous uses of account imagery (e.g. a profile picture) by other accounts.<br><br> Threat Actors have been known to copy existing accounts\u2019 imagery to impersonate said accounts, or to provide imagery for unrelated accounts which aren\u2019t intended to impersonate the original assets\u2019 owner.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0145.001.md",
+                    "external_id": "T0145.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--62a6f5fe-baac-4402-8526-82875d46cf7b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--83a1d2fd-b207-4a18-83eb-7c161588985c",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.214297Z",
+            "modified": "2025-03-11T12:54:45.214297Z",
+            "name": "Develop Audio-Based Content",
+            "description": "Creating and editing false or misleading audio artefacts, often aligned with one or more specific narratives, for use in a disinformation campaign. This may include creating completely new audio content, repurposing existing audio artefacts (including cheap fakes), or using AI-generated audio creation and editing technologies (including deepfakes).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0088.md",
+                    "external_id": "T0088"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ea96b71-18a9-48a2-b194-f2a7efa34029",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ac528803-bed5-4dbb-9d0f-a67657517f71",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.260137Z",
+            "modified": "2025-03-11T12:54:45.260137Z",
+            "name": "Online Banking Platform",
+            "description": "Online Banking Platforms are spaces provided by banks for their customers to manage their Bank Account online.<br><br>The Online Banking Platforms available differ by country. In the United Kingdom, examples of banking institutions which provide Online Banking Platforms include Lloyds, Barclays, and Monzo. In the United States, examples include Citibank, Chase, and Capital One.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0148.001.md",
+                    "external_id": "T0148.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

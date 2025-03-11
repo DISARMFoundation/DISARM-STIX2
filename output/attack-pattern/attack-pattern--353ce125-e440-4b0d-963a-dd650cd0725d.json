@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--533e8d8f-37e5-4f9b-ae40-c88d584bbd1c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--353ce125-e440-4b0d-963a-dd650cd0725d",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.2715Z",
+            "modified": "2025-03-11T12:54:45.2715Z",
+            "name": "Video Platform",
+            "description": "YouTube, Vimeo, and LiveLeak are examples of Video Platforms.<br><br>Video Platforms allow people to create Accounts which they can use to upload video content for people to watch on the platform.<br><br>The ability to host videos is not exclusive to Video Platforms; many online platforms allow users with Accounts to upload video content. However, Video Platforms\u2019 primary purpose is to be a place to host and view video content.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0152.006.md",
+                    "external_id": "T0152.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

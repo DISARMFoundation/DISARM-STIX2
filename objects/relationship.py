@@ -1,4 +1,4 @@
-from stix2 import Relationship, properties, ExternalReference
+from stix2 import Relationship
 
 
 def make_disarm_subtechnique_relationship(source, target, marking_id):

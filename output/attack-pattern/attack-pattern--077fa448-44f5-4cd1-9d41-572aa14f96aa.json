@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b85be5fa-bf8e-44a4-8765-abd7539528c6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--077fa448-44f5-4cd1-9d41-572aa14f96aa",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.259496Z",
+            "modified": "2025-03-11T12:54:45.259496Z",
+            "name": "Malware Asset",
+            "description": "Malware is Software which has been designed to cause harm or facilitate malicious behaviour on electronic devices.<br><br>DISARM recommends using the [MITRE ATT&CK Framework](https://attack.mitre.org/) to document malware types and their usage.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0147.003.md",
+                    "external_id": "T0147.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

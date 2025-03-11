@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7926ff56-a745-4389-8612-ac0333b273f9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--801c782f-1d28-482d-8faf-806fbe6fdba2",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.274556Z",
+            "modified": "2025-03-11T12:54:45.274556Z",
+            "name": "Direct Messaging",
+            "description": "Many online platforms allow users to contact other platform users via Direct Messaging; private messaging which can be initiated by a user with other platform users.<br><br>Examples include messaging on WhatsApp, Telegram, and Signal; direct messages (DMs) on Facebook or Instagram.<br><br>Some platforms\u2019 Direct Messaging capabilities provide users with Encrypted Communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0153.007.md",
+                    "external_id": "T0153.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

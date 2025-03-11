@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--858d121f-407d-47c5-b7c9-805de31a05dd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--47ac1674-f5a2-4b8e-bf93-99b8a87666f3",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.249845Z",
+            "modified": "2025-03-11T12:54:45.249845Z",
+            "name": "Raise Funds",
+            "description": "Solicit donations for a cause. Popular conspiracy theorists can attract financial contributions from their followers. Fighting back against the establishment is a popular crowdfunding narrative. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0137.003.md",
+                    "external_id": "T0137.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

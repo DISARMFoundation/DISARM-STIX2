@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fdca945f-c9cb-47c5-80c9-7665013a8686",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9ad2d6b1-d05b-4a8b-9abb-07e84b1f794a",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.264033Z",
+            "modified": "2025-03-11T12:54:45.264033Z",
+            "name": "Internet Connected Physical Asset",
+            "description": "An Internet Connected Physical Asset (sometimes referred to as IoT (Internet of Things)) is a physical asset which has internet connectivity to support online features, such as digital signage, wireless printers, and smart TVs.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0149.009.md",
+                    "external_id": "T0149.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

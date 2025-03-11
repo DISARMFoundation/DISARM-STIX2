@@ -1,7 +1,7 @@
-import json
 import os
 from stix2 import Bundle
 import shutil
+import json
 
 
 def write_disarm_dir(dir):
@@ -44,8 +44,8 @@ def write_file(file_name, file_data):
 
     """
     with open(file_name, 'w') as f:
-        # f.write(json.dumps(file_data, sort_keys=True, indent=4))
-        f.write(file_data.serialize(pretty=True))
+        parsed = json.loads(file_data.serialize(pretty=False))
+        f.write(json.dumps(parsed, indent=4))
         f.write('\n')
 
 

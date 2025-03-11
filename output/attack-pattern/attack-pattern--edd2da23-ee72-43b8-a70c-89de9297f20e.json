@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fce4aac7-ae1f-4857-83f3-20f8b49d330c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--edd2da23-ee72-43b8-a70c-89de9297f20e",
+            "created_by_ref": "identity--512d50d0-01d5-4970-ae3d-6216be878c05",
+            "created": "2025-03-11T12:54:45.258819Z",
+            "modified": "2025-03-11T12:54:45.258819Z",
+            "name": "Software Asset",
+            "description": "A Software is a program developed to run on computers or devices that helps users achieve specific goals, such as improving productivity, automating tasks, or having fun.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0147.md",
+                    "external_id": "T0147"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3515f5b0-37cf-4c8a-8c10-f62a02d4f913"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}
